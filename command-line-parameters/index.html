@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-            <title>Options  - Datamystic </title>
+            <title>Command Line Parameters - Datamystic </title>
         
         <meta name="robots" content="noindex,nofollow" /> 
         <meta name="generator" content="Publii Open-Source CMS for Static Site" />
@@ -13,13 +13,13 @@
         <link rel="alternate" type="application/atom+xml" href="https://said-d-appwrk.github.io/publii-website/feed.xml" />
 <link rel="alternate" type="application/json" href="https://said-d-appwrk.github.io/publii-website/feed.json" />
 
-        <meta property="og:title" content="Options " /><meta property="og:site_name" content="Datamystic" /><meta property="og:description" content=" Backup mode Save a backup of any modified files. If the original file was called test.xls, the backup is&hellip;" /><meta property="og:url" content="https://said-d-appwrk.github.io/publii-website/options/" /><meta property="og:type" content="article" />
+        <meta property="og:title" content="Command Line Parameters" /><meta property="og:site_name" content="Datamystic" /><meta property="og:description" content=" ExcelPipe can be run from a DOS shell or from a shortcut with parameters to make it run automatically." /><meta property="og:url" content="https://said-d-appwrk.github.io/publii-website/command-line-parameters/" /><meta property="og:type" content="article" />
         
         <style>:root{--primary-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--secondary-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}</style>
         
         <link rel="stylesheet" href="https://said-d-appwrk.github.io/publii-website/assets/css/fontawesome-all.min.css?v=bbcde81f26378440dac4c3d195714389">
         <link rel="stylesheet" href="https://said-d-appwrk.github.io/publii-website/assets/css/style.css?v=ae813a97e7468c9e735e64e516ae3526">
-        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://said-d-appwrk.github.io/publii-website/options/"},"headline":"Options ","datePublished":"2021-06-24T11:14","dateModified":"2021-06-24T16:11","description":" Backup mode Save a backup of any modified files. If the original file was called test.xls, the backup is&hellip;","author":{"@type":"Person","name":"Simon"},"publisher":{"@type":"Organization","name":"Simon"}}</script>
+        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://said-d-appwrk.github.io/publii-website/command-line-parameters/"},"headline":"Command Line Parameters","datePublished":"2021-06-24T16:25","dateModified":"2021-06-24T16:25","description":" ExcelPipe can be run from a DOS shell or from a shortcut with parameters to make it run automatically.","author":{"@type":"Person","name":"Simon"},"publisher":{"@type":"Organization","name":"Simon"}}</script>
         
         
     </head>
@@ -37,135 +37,147 @@
 
       <article class="post">
             <header class="main post__header">              
-                  <time datetime="2021-06-24T11:14" class="post__date">
+                  <time datetime="2021-06-24T16:25" class="post__date">
                         June 24, 2021
                   </time>
 
                <h1>
-                  Options 
+                  Command Line Parameters
                </h1>             
             </header>
 
 
          <div class="post__inner post__entry">           
-            
-    <figure class="post__image post__image--wide">
-      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/6/option30.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-md.jpg 768w"  height="773" width="885" alt="" />
-      
-    </figure>
-<div>
-<h2>Backup mode</h2>
-<p>Save a backup of any modified files. If the original file was called test.xls, 
-the backup is saved to test.bak.</p>
-<h2>Retain file Modified dates</h2>
-<p>When checked, the original file date of files is retained.</p>
-<h2>Retain file Last Access dates</h2>
-<p>When checked, the original Last Accessed date of files is retained. This 
-allows your organization's data retention policy to be maintained, as documents 
-that have not been accessed by a human still retain their original date.</p>
-<h2>Allow alerts (necessary for mail merge)</h2>
-<p>Normally ExcelPipe disables alerts from Microsoft Excel, which is fine in 
-most cases as the default choice is selected. </p>
-<h2>Process longest 'Find what' strings first</h2>
-		<p>Very useful for translators, this option causes the search/replace 
-		list to be first sorted in order of the longest (i.e. most specific) Find What strings first. 
-		A good example is this:</p>
-		<table border="1" id="table1">
-			<tbody><tr>
-				<td><b>No.</b></td>
-				<td><b>Find What - English</b></td>
-				<td><b>Replace with - Spanish translation</b></td>
-			</tr>
-			<tr>
-				<td>1.</td>
-				<td>Parent</td>
-				<td>Padre</td>
-			</tr>
-			<tr>
-				<td>2.</td>
-				<td>Parent Information</td>
-				<td>Information sobre los padres</td>
-			</tr>
-			</tbody></table>
-		<p>If the string 'Parent Information' is found in the file, it gets 
-		replaced by '<span style="background-color: #FFFF00">Padre</span> 
-		Information', and the second row is never used. This situation is 
-		avoided by first sorting the list so that the longest (i.e. most 
-		specific) replacements are first.</p>
-<h2>Process read only files</h2>
-		<p>When checked, if read-only files are encountered, they are first 
-		changed to read-write, processed, and then set back to read-only status. 
-		When unchecked, read-only files are skipped.</p>
-<h2>Process hidden rows and columns</h2>
-		<p>By default, hidden rows and columns are not searched. Check this 
-		option to -> this can be slightly slower.</p>
-<h2>Keep Microsoft Excel visible while changes are being made</h2>
-<p>While slower, this option can be useful for debugging and monitoring what 
-ExcelPipe is doing.</p>
-<h2>Accept Revisions</h2>
-<p>Accepts revisions before processing - otherwise they can prevent matches from 
-being found.</p>
-<h2>Disable Addins</h2>
-<p>Checked by default, this option disables Microsoft Excel AddIns in case they 
-interfere with the search/replace process. If you need an AddIn to remain loaded 
-then uncheck this box.</p>
-<h2>Prevent overlap of search/replaces</h2>
-<p>Prevent chaining of search/replaces where a early replace gets changed by a 
-subsequent search e.g. with the following set of replacements:</p>
-<table border="1" width="228" id="table2">
-	<tbody><tr>
-		<td width="27"><b>Line</b></td>
-		<td width="86"><b>Search for</b></td>
-		<td width="93"><b>Replace with</b></td>
-	</tr>
-	<tr>
-		<td width="27">1</td>
-		<td width="86">cat</td>
-		<td width="93">dog</td>
-	</tr>
-	<tr>
-		<td width="27">2</td>
-		<td width="86">dog</td>
-		<td width="93">rat</td>
-	</tr>
-	<tr>
-		<td width="27">3</td>
-		<td width="86">rat</td>
-		<td width="93">foo</td>
-	</tr>
+            <div>
+<p>ExcelPipe can be run from a DOS shell or from a shortcut with parameters to make it run automatically. This is very useful for
+automation and scheduling (by making the short cut an entry in the Start Up folder), 
+and for running ExcelPipe from a batch file. 
+Here is a complete example:</p>
+
+<blockquote>
+
+<p>"<font face="Courier New">C:\Program files\ExcelPipe\excelpipe.exe" 
+"/f=my replaces.epp" myfile1.xls myfile2.xlsx /G /Q</font></p>
+
+</blockquote>
+
+<p>Note</p>
+
+<ol>
+  <li> Any commands with embedded spaces must be surrounded with double quotes. 
+  You <b>must</b> surround the entire command/setting combination e.g.
+  <font color="#FF0000">"</font>/f=c:\Program Files\ExcelPipe\my 
+  replacements.epp" 
+  NOT /f=<font color="#FF0000">"</font>c:\Program Files\ExcelPipe\my 
+  replacements.epp"</li>
+  <li>Windows limits the command line length to about 260 characters. You can
+    overcome this limitation by using the /Z=<filename">> command to load
+    command line parameters stored in a file. Note that you <b>
+  <font color="#FF0000">MUST</font></b> remove any double quotes from around 
+  commands with embedded spaces when you put them in the command file.</li>
+</ol>
+
+<p>Conventions used below: </p>
+
+<blockquote>
+
+<p><">> surrounds text that is to be entered. Do NOT enter the '<' and
+'">>' characters </p>
+
+<p>Alternatives are shown in square brackets '[' and ']' with a pipe '|'
+character between them. Do NOT enter the square brackets or the pipe character -
+just type the single alternative you require. </p>
+
+</blockquote>
+
+<p>Usage: </p>
+
+<blockquote>
+  <pre>"C:\Program files\ExcelPipe\excelpipe.exe" [/MINIMIZED|/MAXIMIZED] ["/F=my replaces.epp"] [commands] [filenames] [/G [/Q]]</pre>
+</blockquote>
+
+<p>Where [commands] is zero or more of:</p>
+
+<table cellspacing="0" border="1" cellpadding="7" width="721">
+  <tbody><tr>
+    <td valign="TOP">[filenames]</td>
+    <td valign="TOP">Any files, folders or filename specifications (e.g. *.doc) 
+	specified on the command line will cause ExcelPipe to select the 'Process 
+	List of Files' option and add the given data. If your settings already 
+	specifies a list of files, those from the command line are appended.</td>
+  </tr>
+  <tr>
+    <td valign="TOP"><font face="Courier New">/F=<.epp filename">></font></td>
+    <td valign="TOP">Opens a ExcelPipe settings file. </td>
+  </tr>
+  <tr>
+    <td valign="TOP"><font face="Courier New">/REPORT=<report 
+	filename">></font></td>
+    <td valign="TOP">At the conclusion of the job, a text file 
+	report is written to the given filename. The /REPORT parameter must be after 
+	any /F command and before the /G command.</td>
+  </tr>
+  <tr>
+    <td valign="TOP"><font face="Courier New">/G</font></td>
+    <td valign="TOP">Go. Begin processing replacements with ExcelPipe. Processing of the command 
+    line does not continue until the processing job is complete.<p><i>Not 
+	available in the Evaluation Edition.</i></p></td>
+  </tr>
+  <tr>
+    <td valign="TOP"><font face="Courier New">/GS</font></td>
+    <td valign="TOP">Same as /G, but search only mode.<p><i>Not available in the 
+	Evaluation Edition.</i></p></td>
+  </tr>
+  <tr>
+    <td valign="TOP"><font face="Courier New">/I=<filename">></font></td>
+    <td valign="TOP">Imports a search/replace list from Excel, Tab 
+    or CSV-delimited file, and adds it to the end of the grid. The current 
+    options settings are used for each row added.</td>
+  </tr>
+  <tr>
+    <td valign="TOP"><font face="Courier New">/MAXIMIZED</font></td>
+    <td valign="TOP">Opens the application maximized.</td>
+  </tr>
+  <tr>
+    <td valign="TOP"><font face="Courier New">/MINIMIZED</font></td>
+    <td valign="TOP">Opens the application minimized.</td>
+  </tr>
+  <tr>
+    <td valign="TOP"><font face="Courier New">/Q</font></td>
+    <td valign="TOP">Quit ExcelPipe at the end of processing.</td>
+  </tr>
+  <tr>
+    <td valign="TOP"><pre><font face="Courier New">/Z=<filename">></font></pre>
+    </td>
+    <td valign="TOP">Read command line parameters from the specified file. Very
+    useful for performing large numbers of changes, or for working around the Windows
+      limitation of approx 260 characters on the command line.
+      <p>For example, if you had the long command line</p>
+      <blockquote>
+        <p>start /w excelpipe.exe "/f=my special filter.epp" /g
+        "/f=my special filter2.epp" /g "/f=my special
+        filter3.epp" /g "/f=my special filter4.epp" /g /q</p>
+      </blockquote>
+      <p>This would change to something like</p>
+      <blockquote>
+        <p>start /w excelpipe.exe /z=commands.txt</p>
+      </blockquote>
+      <p>and the file commands.txt would contain</p>
+      <blockquote>
+        <p>/f=my special filter.epp<br>
+        /g<br>
+        /f=my special filter2.epp<br>
+        /g<br>
+        /f=my special filter3.epp<br>
+        /g<br>
+        /f=my special filter4.epp<br>
+        /g<br>
+        /q</p>
+      </blockquote>
+    </td>
+  </tr>
 </tbody></table>
-<p>Imagine the sentence 'A cat bit the dog'. This will be changed to 'A foo bit 
-the foo' because the replacement on one line is found by the search on the next 
-line.</p>
-<p>When this option is checked, the replacement becomes 'A dog bit the rat'.</p>
-<h2>Password for open</h2>
-<p>If a document requires a password for open, ExcelPipe will open it using this 
-password. The password is ignored if it is not required to open the document. If 
-the password is wrong the document is skipped.</p>
-<p>This can be handy if you have multiple password-protected documents sharing 
-the same protection password.</p>
-<h2>Password to unprotect sheet/workbook</h2>
-<p>If a sheet or workbook requires a password to modify it, ExcelPipe will provide this 
-password. The password is ignored if not required.</p>
-<p>This password is also used if you specify a Code Module search and a 
-VBProject is found to be protected.</p>
-<p>ExcelPipe restores the original protection when it saves the file.</p>
-		<h2>ISO-9001 version control</h2>
-<p>If your company is certified to the international ISO-9001 standard, it's 
-essential that you also update each document's version number when any changes 
-are made.</p>
-<p>With ExcelPipe, you can automatically update the version number by 1.0 or 0.1 
-or any other amount automatically.</>
-
-		<h3>'Revision' document property name</h3>
-<p>This is the name of the custom property that holds the version number in the 
-document, usually 'DocRevision' or similar. For more information,
-<a target="_blank" href="http://www.datamystic.com/wordpipe/document_versions.html">
-please click here.</a> This field is NOT case-sensitive.</p>
-
-		<h3>Increment</h3>
-<p>The amount to increment the revision by, usually 1.0 or 0.1. This value must 
-be a valid floating-point number.</p></div>            
+</div>            
          </div>
 
             <footer class="post__inner post__footer">
@@ -251,7 +263,7 @@ be a valid floating-point number.</p></div>
                          </a>
                 
                    </li>
-                         <li class="active">
+                         <li>
                          <a
                             href="https://said-d-appwrk.github.io/publii-website/options/"
                                target="_self"

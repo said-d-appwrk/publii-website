@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://said-d-appwrk.github.io/publii-website/command-line-parameters/",
+            "url": "https://said-d-appwrk.github.io/publii-website/command-line-parameters/",
+            "title": "Command Line Parameters",
+            "summary": " ExcelPipe can be run from a DOS shell or from a shortcut with parameters to make it run automatically.",
+            "content_html": "<div>\n<p>ExcelPipe can be run from a DOS shell or from a shortcut with parameters to make it run automatically. This is very useful for\nautomation and scheduling (by making the short cut an entry in the Start Up folder), \nand for running ExcelPipe from a batch file. \nHere is a complete example:</p>\n\n<blockquote>\n\n<p>\"<font face=\"Courier New\">C:\\Program files\\ExcelPipe\\excelpipe.exe\" \n\"/f=my replaces.epp\" myfile1.xls myfile2.xlsx /G /Q</font></p>\n\n</blockquote>\n\n<p>Note</p>\n\n<ol>\n  <li> Any commands with embedded spaces must be surrounded with double quotes. \n  You <b>must</b> surround the entire command/setting combination e.g.\n  <font color=\"#FF0000\">\"</font>/f=c:\\Program Files\\ExcelPipe\\my \n  replacements.epp\" \n  NOT /f=<font color=\"#FF0000\">\"</font>c:\\Program Files\\ExcelPipe\\my \n  replacements.epp\"</li>\n  <li>Windows limits the command line length to about 260 characters. You can\n    overcome this limitation by using the /Z=<filename\">> command to load\n    command line parameters stored in a file. Note that you <b>\n  <font color=\"#FF0000\">MUST</font></b> remove any double quotes from around \n  commands with embedded spaces when you put them in the command file.</li>\n</ol>\n\n<p>Conventions used below: </p>\n\n<blockquote>\n\n<p><\">> surrounds text that is to be entered. Do NOT enter the '<' and\n'\">>' characters </p>\n\n<p>Alternatives are shown in square brackets '[' and ']' with a pipe '|'\ncharacter between them. Do NOT enter the square brackets or the pipe character -\njust type the single alternative you require. </p>\n\n</blockquote>\n\n<p>Usage: </p>\n\n<blockquote>\n  <pre>\"C:\\Program files\\ExcelPipe\\excelpipe.exe\" [/MINIMIZED|/MAXIMIZED] [\"/F=my replaces.epp\"] [commands] [filenames] [/G [/Q]]</pre>\n</blockquote>\n\n<p>Where [commands] is zero or more of:</p>\n\n<table cellspacing=\"0\" border=\"1\" cellpadding=\"7\" width=\"721\">\n  <tbody><tr>\n    <td valign=\"TOP\">[filenames]</td>\n    <td valign=\"TOP\">Any files, folders or filename specifications (e.g. *.doc) \n\tspecified on the command line will cause ExcelPipe to select the 'Process \n\tList of Files' option and add the given data. If your settings already \n\tspecifies a list of files, those from the command line are appended.</td>\n  </tr>\n  <tr>\n    <td valign=\"TOP\"><font face=\"Courier New\">/F=<.epp filename\">></font></td>\n    <td valign=\"TOP\">Opens a ExcelPipe settings file. </td>\n  </tr>\n  <tr>\n    <td valign=\"TOP\"><font face=\"Courier New\">/REPORT=<report \n\tfilename\">></font></td>\n    <td valign=\"TOP\">At the conclusion of the job, a text file \n\treport is written to the given filename. The /REPORT parameter must be after \n\tany /F command and before the /G command.</td>\n  </tr>\n  <tr>\n    <td valign=\"TOP\"><font face=\"Courier New\">/G</font></td>\n    <td valign=\"TOP\">Go. Begin processing replacements with ExcelPipe. Processing of the command \n    line does not continue until the processing job is complete.<p><i>Not \n\tavailable in the Evaluation Edition.</i></p></td>\n  </tr>\n  <tr>\n    <td valign=\"TOP\"><font face=\"Courier New\">/GS</font></td>\n    <td valign=\"TOP\">Same as /G, but search only mode.<p><i>Not available in the \n\tEvaluation Edition.</i></p></td>\n  </tr>\n  <tr>\n    <td valign=\"TOP\"><font face=\"Courier New\">/I=<filename\">></font></td>\n    <td valign=\"TOP\">Imports a search/replace list from Excel, Tab \n    or CSV-delimited file, and adds it to the end of the grid. The current \n    options settings are used for each row added.</td>\n  </tr>\n  <tr>\n    <td valign=\"TOP\"><font face=\"Courier New\">/MAXIMIZED</font></td>\n    <td valign=\"TOP\">Opens the application maximized.</td>\n  </tr>\n  <tr>\n    <td valign=\"TOP\"><font face=\"Courier New\">/MINIMIZED</font></td>\n    <td valign=\"TOP\">Opens the application minimized.</td>\n  </tr>\n  <tr>\n    <td valign=\"TOP\"><font face=\"Courier New\">/Q</font></td>\n    <td valign=\"TOP\">Quit ExcelPipe at the end of processing.</td>\n  </tr>\n  <tr>\n    <td valign=\"TOP\"><pre><font face=\"Courier New\">/Z=<filename\">></font></pre>\n    </td>\n    <td valign=\"TOP\">Read command line parameters from the specified file. Very\n    useful for performing large numbers of changes, or for working around the Windows\n      limitation of approx 260 characters on the command line.\n      <p>For example, if you had the long command line</p>\n      <blockquote>\n        <p>start /w excelpipe.exe \"/f=my special filter.epp\" /g\n        \"/f=my special filter2.epp\" /g \"/f=my special\n        filter3.epp\" /g \"/f=my special filter4.epp\" /g /q</p>\n      </blockquote>\n      <p>This would change to something like</p>\n      <blockquote>\n        <p>start /w excelpipe.exe /z=commands.txt</p>\n      </blockquote>\n      <p>and the file commands.txt would contain</p>\n      <blockquote>\n        <p>/f=my special filter.epp<br>\n        /g<br>\n        /f=my special filter2.epp<br>\n        /g<br>\n        /f=my special filter3.epp<br>\n        /g<br>\n        /f=my special filter4.epp<br>\n        /g<br>\n        /q</p>\n      </blockquote>\n    </td>\n  </tr>\n</tbody></table>\n</div>",
+            "author": {
+                "name": "Simon"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-06-24T16:25:51+05:30",
+            "date_modified": "2021-06-24T16:25:51+05:30"
+        },
+        {
             "id": "https://said-d-appwrk.github.io/publii-website/status/",
             "url": "https://said-d-appwrk.github.io/publii-website/status/",
             "title": "Status",
@@ -134,20 +148,6 @@
             ],
             "date_published": "2021-06-24T11:05:38+05:30",
             "date_modified": "2021-06-24T15:54:22+05:30"
-        },
-        {
-            "id": "https://said-d-appwrk.github.io/publii-website/help/",
-            "url": "https://said-d-appwrk.github.io/publii-website/help/",
-            "title": "Help",
-            "summary": " Contents Displays the contents page of the ExcelPipe online help. Displays the index page of the ExcelPipe online help.",
-            "content_html": "<div>\n<h2>Contents</h2>\n\n<p>Displays the contents page of the ExcelPipe online help.</p>\n\n<h2>Index</h2>\n\n<p>Displays the index page of the ExcelPipe online help.</p>\n\n<h2>Show Tip of the Day</h2>\n\n<p>Shows or hides the Tip of the Day panel.</p>\n\n<h2>Buy ExcelPipe Now</h2>\n\n<p>Opens your web browser at <a href=\"http://www.datamystic.com/buy.html\">http://www.datamystic.com/buy.html</a>\nto purchase ExcelPipe.</p>\n\n<h2>Order form</h2>\n\n<p>Opens a text-based order form to order ExcelPipe.</p>\n\n<h2>ExcelPipe Home Page</h2>\n\n<p>Opens your web browser at\n<a href=\"http://www.datamystic.com/excelpipe.html\">http://www.datamystic.com/excelpipe.html</a></p>\n\n<h2>DataMystic Home Page</h2>\n\n<p>Opens your web browser at <a href=\"http://www.datamystic.com\">http://www.datamystic.com</a></p>\n\n<h2>Check web for ExcelPipe updates</h2>\n\n<p>Uses the internet to find out if a new version of ExcelPipe is available. If\nso, you can choose to go to the <a href=\"http://www.datamystic.com\">DataMystic</a> web site to download the update.</p>\n\n<h2>Technical support</h2>\n\n<p>Opens your web browser at <a href=\"http://www.datamystic.com/support.html\">http://www.datamystic.com/support.html</a></p>\n\n<h2>About</h2>\n\n<p>Displays ExcelPipe's About window.</p>\n</div>",
-            "author": {
-                "name": "Simon"
-            },
-            "tags": [
-            ],
-            "date_published": "2021-06-24T10:52:09+05:30",
-            "date_modified": "2021-06-24T15:50:52+05:30"
         }
     ]
 }
