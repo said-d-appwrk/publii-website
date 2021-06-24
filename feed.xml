@@ -3,12 +3,43 @@
     <title>Datamystic</title>
     <link href="https://said-d-appwrk.github.io/publii-website/feed.xml" rel="self" />
     <link href="https://said-d-appwrk.github.io/publii-website" />
-    <updated>2021-06-24T16:25:51+05:30</updated>
+    <updated>2021-06-24T16:37:41+05:30</updated>
     <author>
         <name>Simon</name>
     </author>
     <id>https://said-d-appwrk.github.io/publii-website</id>
 
+    <entry>
+        <title>sharepoint</title>
+        <author>
+            <name>Simon</name>
+        </author>
+        <link href="https://said-d-appwrk.github.io/publii-website/sharepoint/"/>
+        <id>https://said-d-appwrk.github.io/publii-website/sharepoint/</id>
+
+        <updated>2021-06-24T16:37:10+05:30</updated>
+            <summary>
+                <![CDATA[
+                     Connecting to a SharePoint Server ExcelPipe can connect to SharePoint in a number of ways: A SharePoint server link&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div>
+<h2>Connecting to a SharePoint Server</h2>
+<p>ExcelPipe can connect to SharePoint in a number of ways:</p>
+<ul>
+	<li>A SharePoint server link e.g. http://...</li>
+	<li>A UNC path e.g. \\<i>sharepoint server\share\*.*</i></li>
+	<li>A drive mapping, e.g. map K: to \\<i>sharepoint server\share;</i> in
+	ExcelPipe you can then 
+	specify K:\*.*</li>
+</ul>
+
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Command Line Parameters</title>
         <author>
@@ -811,7 +842,7 @@ or .TAB and then import that instead.</p></div>
         <link href="https://said-d-appwrk.github.io/publii-website/files-to-process/"/>
         <id>https://said-d-appwrk.github.io/publii-website/files-to-process/</id>
 
-        <updated>2021-06-24T15:43:25+05:30</updated>
+        <updated>2021-06-24T16:37:41+05:30</updated>
             <summary>
                 <![CDATA[
                      Include subfolders When checked, the Include Subfolders box tells ExcelPipe to search all subfolders of the Start folder for&hellip;
@@ -878,7 +909,7 @@ reprocessing.</p>
 them to ExcelPipe with this button. </p>
 
 <p><b>Add SharePoint URL</b></p>
-<p>Click this button to add a URL pointing to a <a href="sharepoint.htm">SharePoint</a> site. 
+<p>Click this button to add a URL pointing to a <a href="sharepoint">SharePoint</a> site. 
 If there is a SharePoint URL on the clipboard when you click this button, 
 WordPipe will automatically try and browse to it.</p>
 </div>
@@ -886,74 +917,6 @@ WordPipe will automatically try and browse to it.</p>
   <p>
     <br>
   </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Running ExcelPipe</title>
-        <author>
-            <name>Simon</name>
-        </author>
-        <link href="https://said-d-appwrk.github.io/publii-website/running-excelpipe/"/>
-        <id>https://said-d-appwrk.github.io/publii-website/running-excelpipe/</id>
-
-        <updated>2021-06-24T15:54:22+05:30</updated>
-            <summary>
-                <![CDATA[
-                     ExcelPipe has two very important pre-requisites when running Both of these situations lead to file sharing violations. ExcelPipe may&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <div>
-<p>ExcelPipe has two very important pre-requisites when running</p>
-
-<ol>
-  <li>Microsoft Excel is not already running (especially with open documents). </li>
-  <li>No documents are opened by someone else (no sharing)</li>
-</ol>
-
-<p>Both of these situations lead to file sharing violations. ExcelPipe may appear 
-to hang, and you will need to Alt-Tab to Microsoft Excel to close the 'Open Read Only' 
-dialog box.</p>
-
-<p>This leads to our two recommendations when running ExcelPipe:</p>
-
-<ol>
-  <li>Please close ALL other applications. This ensures that no programs have an 
-  Excel document open. <br>
-  <br>
-  If ExcelPipe says that Microsoft Excel is still running, you may have to press Ctrl+Alt+Del to access the Task Manager and kill of all instances of 
-  EXCEL.EXE manually.<br>
-  </li>
-  <li>If you are running ExcelPipe across a network, file share or remote machine 
-of any description, you MUST ensure that ExcelPipe has exclusive access to those 
-files, either through running ExcelPipe after hours if you are guaranteed to 
-have exclusive access, or by denying all users access to the files while 
-ExcelPipe is being run.</li>
-</ol>
-
-<h3>Speed and Performance</h3>
-
-<p>To get the fastest speed out of ExcelPipe:</p>
-
-<ul>
-  <li>Ensure you disable virus scanning so that Microsoft Excel will open 
-  documents faster</li>
-  <li>Close all other running applications</li>
-	<li>If possible, run ExcelPipe directly on your File Server (Server Edition 
-	required, and local install of MS Office)</li>
-  <li>Increase the process priority of EXCEL.EXE in task manager.</li>
-</ul>
-
-<p>See also</p>
-
-<blockquote>
-
-<p><a href="command%20line%20parameters.htm">Running ExcelPipe from the command 
-line.</a></p>
-
-</blockquote></div>
             ]]>
         </content>
     </entry>
