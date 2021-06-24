@@ -3,12 +3,638 @@
     <title>Datamystic</title>
     <link href="https://said-d-appwrk.github.io/publii-website/feed.xml" rel="self" />
     <link href="https://said-d-appwrk.github.io/publii-website" />
-    <updated>2021-06-24T16:37:41+05:30</updated>
+    <updated>2021-06-24T17:00:50+05:30</updated>
     <author>
         <name>Simon</name>
     </author>
     <id>https://said-d-appwrk.github.io/publii-website</id>
 
+    <entry>
+        <title>Special characters</title>
+        <author>
+            <name>Simon</name>
+        </author>
+        <link href="https://said-d-appwrk.github.io/publii-website/special-characters/"/>
+        <id>https://said-d-appwrk.github.io/publii-website/special-characters/</id>
+
+        <updated>2021-06-24T17:00:50+05:30</updated>
+            <summary>
+                <![CDATA[
+                     The special codes in the Find What and Replace With boxes depends on which type of match is being&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div>
+	<p class="T">The special codes in the <b>Find What</b> and <b>Replace With</b> 
+	boxes depends on which type of match is being used.</p>
+
+<h2>Searching in Cells</h2>
+<p>Microsoft Excel provides the following special 'wildcard' characters.</p>
+				<table id="table9">
+					<tbody><tr>
+						<th>Use</th>
+						<th>To find</th>
+					</tr>
+					<tr>
+						<td>? (question mark)</td>
+						<td>Any single character<br>
+						For example, sm?th finds "smith" and "smyth"</td>
+					</tr>
+					<tr>
+						<td>* (asterisk)</td>
+						<td>Any number of characters<br>
+						For example, *east finds "Northeast" and "Southeast"</td>
+					</tr>
+					<tr>
+						<td>~ (tilde) followed by ?, *, or ~</td>
+						<td>A question mark, asterisk, or tilde<br>
+						For example, fy91~? finds "fy91?"</td>
+					</tr>
+				</tbody></table>
+<p>Microsoft Excel uses the tilde (~) as a marker to indicate that the next 
+character is a literal. When you click <b>Find</b> or <b>Replace</b> on the <b>
+Edit</b> menu to replace or search for a tilde (~), an asterisk (*), or a 
+question mark (?), you must precede the character with a tilde (~).<br>
+<br>
+<b>NOTE</b>: If you want to find or replace a tilde in your worksheet, you must 
+type a double tilde (~~). </p>
+
+<table dir="ltr" cellspacing="0" cellpadding="0" width="100%" border="0" id="table4">
+	<tbody><tr valign="top">
+		<td dir="ltr" width="100%">
+		<div id="contentArea">
+			<div id="mainRow" style="HEIGHT: auto">
+				<div id="mainColumn">
+					<div class="kb" id="kb">
+						<div class="default" id="default">
+							<div class="section">
+								<div class="sbody">
+									<h3 id="tocHeadRef">Example 1: How to Find 
+									and Replace Numbers</h3>
+									To replace wildcard characters (*) in a 
+									numeric value in a worksheet cell, use the 
+									steps in the following example: 
+									<table class="list ol" id="table5">
+										<tbody><tr>
+											<td class="number">1.</td>
+											<td class="text">Type
+											<span class="userInput">494**</span> 
+											in cell A1, then save and close the 
+											document.</td>
+										</tr>
+										<tr>
+											<td class="number">2.</td>
+											<td class="text">Select cell A1. 
+											</td>
+										</tr>
+										<tr>
+											<td class="number">3.</td>
+											<td class="text">In ExcelPipe's
+											<strong class="uiterm">Find what</strong> 
+											box, type <span class="userInput">~*</span> 
+											(press TILDE, and then press 
+											ASTERISK). </td>
+										</tr>
+										<tr>
+											<td class="number">4.</td>
+											<td class="text">In the
+											<strong class="uiterm">Replace with</strong> 
+											box, type<span class="userInput"> 2</span>. 
+											</td>
+										</tr>
+										<tr>
+											<td class="number">5.</td>
+											<td class="text">Click <b>Replace</b>. 
+											</td>
+										</tr>
+									</tbody></table>
+									Cell A1 will now read
+									<span class="userInput">49422</span>.<br>
+									<br>
+									<b>NOTE</b>: 
+									<table class="list ul" id="table6">
+										<tbody><tr>
+											<td class="bullet">•</td>
+											<td class="text">When you type an 
+											asterisk without a tilde in the
+											<strong class="uiterm">Find what</strong> 
+											box, ExcelPipe replaces all entries 
+											with a 2. Excel treats the asterisk 
+											as a wildcard character. Therefore, 
+											494** becomes 2.</td>
+										</tr>
+									</tbody></table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</td>
+	</tr>
+</tbody></table>
+<table dir="ltr" cellspacing="0" cellpadding="0" width="100%" border="0" id="table7">
+	<tbody><tr valign="top">
+		<td dir="ltr" width="100%">
+		<div id="contentArea">
+			<div id="mainRow" style="HEIGHT: auto">
+				<div id="mainColumn">
+					<div class="kb" id="kb">
+						<div class="default" id="default">
+							<div class="section">
+								<div class="sbody">
+									<h3 id="tocHeadRef">Example 2: How to Find 
+									and Replace a Tilde</h3>
+									To replace a tilde in an Excel worksheet 
+									cell, use the steps in the following 
+									example: 
+									<table class="list ol" id="table8">
+										<tbody><tr>
+											<td class="number">1.</td>
+											<td class="text">Type
+											<span class="userInput">Micros~1.xls</span> 
+											in cell A1. 
+											</td>
+										</tr>
+										<tr>
+											<td class="number">2.</td>
+											<td class="text">Select cell A1, 
+											then save and close the document.</td>
+										</tr>
+										<tr>
+											<td class="number">3.</td>
+											<td class="text">In ExcelPipe's
+											<strong class="uiterm">Find what</strong> 
+											box, type:
+											<div class="indent">
+												<span class="userInput">~~</span></div>
+											</td>
+										</tr>
+										<tr>
+											<td class="number">4.</td>
+											<td class="text">In the
+											<strong class="uiterm">Replace with</strong> 
+											box, type:
+											<div class="indent">
+												<span class="userInput">oft</span></div>
+											</td>
+										</tr>
+										<tr>
+											<td class="number">5.</td>
+											<td class="text">Click <b>Replace 
+											All</b>. </td>
+										</tr>
+									</tbody></table>
+									Cell A1 now reads <b>Microsoft1.xls</b>. 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</td>
+	</tr>
+</tbody></table>
+
+<h2>Searching in Links and other 'Hidden' Locations</h2>
+  <p class="MsoNormal"><span style="color: #1F497D">You can specify one or more 
+	of the macros below to insert custom text in the Replace With field.</span></p>
+	<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse">
+		<tbody><tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm"><b>
+			<span style="font-size: 12.0pt; font-family: 'Times New Roman',serif; background-image: none; background-repeat: repeat; background-attachment: scroll; background-position: 0% 0%">
+			Macro</span><span style="font-size:
+  12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;color:black"> 
+			Name</span></b></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border:solid black 1.0pt;
+  border-left:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm"><b>
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Description</span></b></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@inputFilename@ or @filename@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Replaced by the name of the current file being processed. The 
+			drive and path section of the filename is removed.</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@fullInputFilename@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Same as @inputFilename, except it includes the complete path</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@inputPath@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">The path to the input file, with a trailing slash e.g. 'c:\my 
+			files\'</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@inputExtension@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">The extension of the input file e.g. '.txt'</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@clipboard@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Inserts the contents of the Windows clipboard</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@time@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Inserts the time in the format HHMMSS</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@date@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Inserts the date in the format YYYYMMDD</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@datetime@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Inserts the date and time in the format YYYYMMDDHHMMSS</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@_year@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Inserts the year in the format YYYY</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@_month@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Inserts the month in the format MM</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@_day@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Inserts the day in the format DD</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@_hour@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Inserts the hour in the format HH</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@_minute@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Inserts the minute in the format MM</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@_second@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Inserts the second in the format SS</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@randomdigit@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Inserts a random digit from 0-9. For two digits, use @randomdigit@@randomdigit</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@randomletter@</span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Inserts a randomletter from A-Z. For two letters, use @randomletter@@randomletter</span></p></td>
+		</tr>
+		<tr>
+			<td width="180" valign="top" style="width:135.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@ENV_<i>varname@</i></span></p></td>
+			<td width="713" valign="top" style="width:534.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Where <i>varname</i> is the name of an environment variable, this 
+			inserts the value of a environment variable e.g. @ENV_OS inserts the 
+			text 'Windows_NT' on an NT system. See below for 'what are 
+			environment variables'</span></p></td>
+		</tr>
+	</tbody></table>
+
+	<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse">
+		<tbody><tr>
+			<td width="360" valign="top" style="width:270.0pt;border:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm"><i>
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Special requirements</span></i></p></td>
+			<td width="98" valign="top" style="width:73.5pt;border:solid black 1.0pt;
+  border-left:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm"><i>
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Replace With text:</span></i></p></td>
+			<td width="116" valign="top" style="width:87.0pt;border:solid black 1.0pt;
+  border-left:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm"><i>
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">With </span>
+			<span style="background-position: 0% 0%; font-size: 12.0pt; font-family: 'Times New Roman',serif; background-image:none; background-repeat:repeat; background-attachment:scroll">
+			Macro</span><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;color:black"> 
+			Values</span></i></p></td>
+			<td width="50" valign="top" style="width:37.5pt;border:solid black 1.0pt;
+  border-left:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm"><i>
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">Results in:</span></i></p></td>
+		</tr>
+		<tr>
+			<td width="360" valign="top" style="width:270.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">If you need to put an @ in the text, simply double it i.e. @@.</span></p></td>
+			<td width="98" valign="top" style="width:73.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">hello@@</span></p></td>
+			<td width="116" valign="top" style="width:87.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">N/A</span></p></td>
+			<td width="50" valign="top" style="width:37.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">hello@</span></p></td>
+		</tr>
+		<tr>
+			<td width="360" valign="top" style="width:270.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">If you need to include the literal name of a </span>
+			<span style="background-position: 0% 0%; font-size: 12.0pt; font-family: 'Times New Roman',serif; background-image:none; background-repeat:repeat; background-attachment:scroll">
+			macro</span><span style="font-size:12.0pt;font-family:
+  &quot;Times New Roman&quot;,&quot;serif&quot;;color:black">, just double the @</span></p></td>
+			<td width="98" valign="top" style="width:73.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@@randomdigit</span></p></td>
+			<td width="116" valign="top" style="width:87.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@randomdigit=7</span></p></td>
+			<td width="50" valign="top" style="width:37.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@randomdigit</span></p></td>
+		</tr>
+		<tr>
+			<td width="360" valign="top" style="width:270.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">If you need to place letters or digits immediately after a </span>
+			<span style="background-position: 0% 0%; font-size: 12.0pt; font-family: 'Times New Roman',serif; background-image:none; background-repeat:repeat; background-attachment:scroll">
+			macro</span><span style="font-size:12.0pt;font-family:
+  &quot;Times New Roman&quot;,&quot;serif&quot;;color:black"> name, end the
+			</span>
+			<span style="background-position: 0% 0%; font-size: 12.0pt; font-family: 'Times New Roman',serif; background-image:none; background-repeat:repeat; background-attachment:scroll">
+			macro</span><span style="font-size:12.0pt;font-family:
+  &quot;Times New Roman&quot;,&quot;serif&quot;;color:black"> name with @.</span></p></td>
+			<td width="98" valign="top" style="width:73.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@randomdigit@@randomdigit</span></p></td>
+			<td width="116" valign="top" style="width:87.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@randomdigit=7, @randomdigit=2</span></p></td>
+			<td width="50" valign="top" style="width:37.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">72</span></p></td>
+		</tr>
+		<tr>
+			<td width="360" valign="top" style="width:270.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">&</span></p></td>
+			<td width="98" valign="top" style="width:73.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@randomdigit@@@</span></p></td>
+			<td width="116" valign="top" style="width:87.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">@randomdigit=7</span></p></td>
+			<td width="50" valign="top" style="width:37.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal" style="margin-top:5.25pt;margin-right:0cm;margin-bottom:
+  5.25pt;margin-left:0cm">
+			<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  color:black">7@</span></p></td>
+		</tr>
+	</tbody></table>
+
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>sharepoint</title>
         <author>
@@ -831,92 +1457,6 @@ this, save your Microsoft Excel data to a .CSV or .TAB temporary file so that
 ExcelPipe can import all the data.</p>
 <p>Note: Loading large lists from Excel is very slow - export your list to .CSV 
 or .TAB and then import that instead.</p></div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Files to process </title>
-        <author>
-            <name>Simon</name>
-        </author>
-        <link href="https://said-d-appwrk.github.io/publii-website/files-to-process/"/>
-        <id>https://said-d-appwrk.github.io/publii-website/files-to-process/</id>
-
-        <updated>2021-06-24T16:37:41+05:30</updated>
-            <summary>
-                <![CDATA[
-                     Include subfolders When checked, the Include Subfolders box tells ExcelPipe to search all subfolders of the Start folder for&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                
-    <figure class="post__image post__image--wide">
-      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/4/files_28.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/4/responsive/files_28-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/4/responsive/files_28-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/4/responsive/files_28-md.jpg 768w"  height="773" width="885" alt="" />
-      
-    </figure>
-<div>
-		<h2>Include subfolders</h2>
-<p>When checked, the Include Subfolders box tells ExcelPipe to search all 
-subfolders of the Start folder for spreadsheets to process. Clear this check box if 
-you don't want to search subfolders of the Start folder.</p>
-<p>When the file list is used, ExcelPipe will scan all subfolders for matching 
-files.</p>
-<p>The include subfolders box applies to all the types of file search.</p>
-<h2>Scan for files</h2>
-<p>Note: You can drag and drop files or folders to process directly from Windows 
-Explorer to ExcelPipe and they will be added to the List of Files. If you drag 
-and drop a settings file (.EPP) the new settings will be loaded.</p>
-
-<h3>Start folder</h3>
-<p>The start folder is where ExcelPipe starts searching for spreadsheets to process. 
-You can browse to a new folder by clicking on the folder icon on the right hand 
-side. To open the folder, double click the field.</p>
-<p>To scan or make changes to a SharePoint site, first map your SharePoint site 
-as a network drive.</p>
-
-<h3>File Types</h3>
-<p>The type of spreadsheets to find. You can separate multiple types with a 
-semi-colon, e.g. *.xl*;*.ods</p>
-
-<p><b>Start date</b></p>
-<p>You can specify an optional start date/time, so that only files modified 
-after this date will be examined.</p>
-
-<p><b>End date</b></p>
-<p>You can specify an optional end date/time, so that only files modified before 
-this date will be examined.</p>
-
-<p>Note: For Word documents (*.doc etc), use our
-<a href="http://www.datamystic.com/wordpipe.html?powerpointpipe_help">
-WordPipe</a> application. Note: For Excel documents (*.xls etc), use our
-<a href="http://www.datamystic.com/excelpipe.html?powerpointpipe_help">ExcelPipe</a> 
-application. For Text documents (txt, html, xml, csv, tab, prn etc), 
-use our <a href="http://www.datamystic.com/textpipe.html?powerpointpipe_help">
-TextPipe Pro</a> application, for far greater speed.</p>
-
-<h2>Get filenames from a text file</h2>
-<p>Use this facility to load a list of files from a text file. Filenames should 
-be one per line, and filespecs like c:\*.xls*;*.xlt can be used.</p>
-<h2>List of files</h2>
-<p>You can paste a list of filenames (and wildcards) directly into the 
-multi-line edit box. </p>
-<p>If your previous run had files with errors, you can copy the list of 
-filenames from the Errors tab and paste the files into this box for 
-reprocessing.</p>
-<h3>Import currently open files from Microsoft Excel</h3>
-<p>If you are working on files inside Microsoft Excel, you can easily transfer 
-them to ExcelPipe with this button. </p>
-
-<p><b>Add SharePoint URL</b></p>
-<p>Click this button to add a URL pointing to a <a href="sharepoint">SharePoint</a> site. 
-If there is a SharePoint URL on the clipboard when you click this button, 
-WordPipe will automatically try and browse to it.</p>
-</div>
-
-  <p>
-    <br>
-  </p>
             ]]>
         </content>
     </entry>
