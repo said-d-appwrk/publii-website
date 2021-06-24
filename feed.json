@@ -1,0 +1,139 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Datamystic",
+    "description": "",
+    "home_page_url": "https://said-d-appwrk.github.io/publii-website",
+    "feed_url": "https://said-d-appwrk.github.io/publii-website/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Simon"
+    },
+    "items": [
+        {
+            "id": "https://said-d-appwrk.github.io/publii-website/what-is-excelpipe/",
+            "url": "https://said-d-appwrk.github.io/publii-website/what-is-excelpipe/",
+            "title": "What is ExcelPipe?",
+            "summary": "ExcelPipe allows you to quickly and easily search and replace across thousands of Excel spreadsheets. ExcelPipe allows all user settings&hellip;",
+            "content_html": "<div><p>ExcelPipe allows you to quickly and easily search and replace across thousands of Excel spreadsheets.\n<br>\n<br>ExcelPipe allows all user settings to be saved and opened so that the same tasks can be repeated in the future without re-keying.\n<br>\n<br>It also has a search-only mode, so you can identify which documents contain text that needs to be manually fixed.\n<br>\n<br><strong>See also\n<br></strong>\n<ol>\n<li>Features</li>\n<li>New features in this release</li>\n</ol>\n</p>\n\n</div>\n\n  <p>\n    \n  </p>",
+            "author": {
+                "name": "Simon"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-06-24T12:22:04+05:30",
+            "date_modified": "2021-06-24T12:22:04+05:30"
+        },
+        {
+            "id": "https://said-d-appwrk.github.io/publii-website/home/",
+            "url": "https://said-d-appwrk.github.io/publii-website/home/",
+            "title": "Home",
+            "summary": " For new users ExcelPipe quickly and easily searches and replaces across thousands of Excel spreadsheets. [more] To use ExcelPipe:&hellip;",
+            "content_html": "\n  <p>\n    <br><strong>For new users\n<br></strong>ExcelPipe quickly and easily searches and replaces across thousands of Excel spreadsheets. [more]\n<br>\n<br><strong>To use ExcelPipe:\n<br></strong>\n<br>Drag and drop your files into ExcelPipe's window, or use the Files to Process tab to Browse for a folder or List of Files.\n<br>On the Actions tab, type in each Find What/Replace With pair, and also where the 'Find What' should be found.\n<br>You can also specify an Excel search/replace list with Unicode text.\n<br>Using the Look In location, you can search in hyperlinks, body text, cells, OLE Links and more.\n<br>On the Options tab, check backup mode, passwords, and restart control.\n<br>Go! Click either the 'Start replacing' or 'Start searching' button at the bottom of the screen. You can generate a list of hyperlinks by clicking the Hyperlink report checkbox.\n<br>Remember - just press F1 for help at any time, or choose Index or Contents from the Help Menu.\n<br>How do I buy ExcelPipe (online)?\n<br>Frequently Asked Questions and demonstrations (online)&nbsp;\n  </p>\n\n  <p>\n    <strong>For previous users\n<br></strong>What's new in this version?&nbsp;\n  </p>\n\n  <p>\n    <strong>Questions?\n<br></strong>Please login to our <a href=\"http://www.datamystic.com/forums\" target=\"_blank\">online user forums</a>, or submit a <a href=\"http://www.datamystic.com/support\" target=\"_blank\">support request</a>\n<br>\n<br>See also\n<br>\n<br>Features\n<br>How can I use ExcelPipe?\n  </p>",
+            "author": {
+                "name": "Simon"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-06-24T11:41:58+05:30",
+            "date_modified": "2021-06-24T11:41:58+05:30"
+        },
+        {
+            "id": "https://said-d-appwrk.github.io/publii-website/restart/",
+            "url": "https://said-d-appwrk.github.io/publii-website/restart/",
+            "title": "  Restart ",
+            "summary": " ",
+            "content_html": "\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://said-d-appwrk.github.io/publii-website/media/posts/7/restar32.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://said-d-appwrk.github.io/publii-website/media/posts/7/responsive/restar32-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/7/responsive/restar32-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/7/responsive/restar32-md.jpg 768w\"  height=\"773\" width=\"885\" alt=\"\" />\n      \n    </figure>",
+            "author": {
+                "name": "Simon"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-06-24T11:15:00+05:30",
+            "date_modified": "2021-06-24T11:15:00+05:30"
+        },
+        {
+            "id": "https://said-d-appwrk.github.io/publii-website/options/",
+            "url": "https://said-d-appwrk.github.io/publii-website/options/",
+            "title": "Options ",
+            "summary": " ",
+            "content_html": "\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://said-d-appwrk.github.io/publii-website/media/posts/6/option30.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-md.jpg 768w\"  height=\"773\" width=\"885\" alt=\"\" />\n      \n    </figure>",
+            "author": {
+                "name": "Simon"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-06-24T11:14:26+05:30",
+            "date_modified": "2021-06-24T11:14:26+05:30"
+        },
+        {
+            "id": "https://said-d-appwrk.github.io/publii-website/actions/",
+            "url": "https://said-d-appwrk.github.io/publii-website/actions/",
+            "title": "Actions",
+            "summary": " Using these values Uses the search/replace pairs specified in the grid. Click the [Add] button to add a new&hellip;",
+            "content_html": "\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://said-d-appwrk.github.io/publii-website/media/posts/5/replac31.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://said-d-appwrk.github.io/publii-website/media/posts/5/responsive/replac31-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/5/responsive/replac31-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/5/responsive/replac31-md.jpg 768w\"  height=\"773\" width=\"885\" alt=\"\" />\n      \n    </figure>\n\n  <p>\n    Using these values\n<br>Uses the search/replace pairs specified in the grid. Click the [Add] button to add a new row to the end of the grid. To delete rows, first select them and then click [Delete]. To edit a row, click it, and then press [F2], or click the cell a second time. You can [Tab] and [Shift-Tab] through the grid. You can change the search settings for multiple rows simultaneously by first selecting them and then changing the search settings below. You can move rows using drag and drop. Copy rows by selecting them and then clicking [Copy]. Clear All rows by clicking [Clear All].\n<br>\n<br>Find what\n<br>Type the information you want to search for or paste it from the Clipboard. The Find text is limited by Microsoft Excel to be a maximum length of 255 characters. You can right click this field for a popup menu with Cut, Copy, Paste and Clear commands.\n<br>\n<br>You can search for more than one line of text at a time. If you use the wildcards *, ? or ~ in your Find What string, see the special characters section.\n<br>\n<br> \n<br>\n<br>Searching for multiple lines\n<br>\n<br>Although the edit field can hold multiple lines of text, Microsoft Excel does NOT allow you to search for multiple lines at once (and ExcelPipe cannot get around this limitation). The best way to search for multiple lines is to break them up into several line-by-line or phrase-by-phrase searches.\n<br>\n<br> \n<br>Replacing Images\n<br>First set the Find What text to\n<br>\n<br>    ^g\n<br>\n<br>ie literally carat (Shift+6) followed by letter 'g'. Not Ctrl+G. (Astute users will notice that this is the same as with MS Word)\n<br>\n<br>Set the Replace With field to the complete path to the replacement image on disk.\n<br>\n<br> \n<br>\n<br>Replace with\n<br>Type the text that you want to use as replacement text or paste if from the Clipboard. Leave the Replace With box empty to delete the Find What box from your document. You can right click this field for a popup menu with Cut, Copy, Paste and Clear commands.\n<br>\n<br>The Replace With text can include Macros such as @filename@.\n<br>\n<br>Search Type\n<br>Normal search\n<br>Matches the text exactly as written.\n<br>\n<br> \n<br>\n<br>EasyPattern wildcards\n<br>Important Note: This search type does NOT apply to the Cells search location. For wildcard searches in Cells, use Microsoft Excel's inbuilt wildcards, with the Search Type set to 'Normal search'.\n<br>\n<br>An EasyPattern allows you to search for a class of text strings rather than specifying every single possibility. For example, to search for a dollar sign followed by a currency amount:\n<br>\n<br>$[ capture(1+ digits, period, 2 digits) ]\n<br>\n<br>Replace With:\n<br>\n<br>USD $1\n<br>\n<br>Click here for the EasyPattern basics and reference.\n<br>\n<br>EasyPatterns are easier to learn and use than perl regex patterns, but to use them in other packages you need to use EasyPattern Helper to convert them to perl regex.\n<br>\n<br> \n<br>Perl regex wildcards\n<br>Important Note: This search type does NOT apply to the Cells search location. For wildcard searches in Cells, use Microsoft Excel's inbuilt wildcards, with the Search Type set to 'Normal search'.\n<br>\n<br>A perl regex pattern allows you to search for a class of text strings rather than specifying every single possibility. For example, to search for a dollar sign followed by a currency amount:\n<br>\n<br>\\$(\\d+\\.\\d{2})\n<br>\n<br>Replace With:\n<br>\n<br>USD $1\n<br>\n<br>Click here for the Perl regex reference.\n<br>\n<br>Perl regex patterns are harder to learn and use than EasyPatterns, but they are support by a huge range of applications.\n<br>\n<br>Look In (Search location)\n<br>Cells - look in each cell\n<br>Hyperlink addresses (*) - look inside hyperlink addresses. To change the displayed text, use the 'Cells' option above as well\n<br>Shapes/Shapes and Text Boxes (*) - inside the text of shapes and grouped shapes and text boxes\n<br>Headers (*) - search inside the left, centre and right header of each sheet\n<br>Footers (*) - search inside the left, centre and right footer of each sheet\n<br>Built in properties (*) - inside Subject, Title, Author etc fields\n<br>Custom properties (*) - inside custom properties defined by the user\n<br>Links (OLE and DDE) (*) - inside links to external documents and databases, and the connection strings of Query Tables and Pivot Tables - ADO, DAO, OLEDB and ODBC database queries, Web queries etc.\n<br>Chart Titles (*) - inside the titles of charts. Note - axis labels come from the work sheet itself, so use the Cells option to replace them\n<br>Defined Names (*) - search and replace the name and the value of predefined names (the names of ranges, constants etc)\n<br>Code Modules (*) - search and replace code modules. If the modules are password-protected, enter this password on the Options tab, Password to Unprotect field. See code modules security.\n<br>Sheet Names (*) - search inside sheet names e.g. Sheet1, Sheet2, Sheet3\n<br>Items with (*) support the use of EasyPatterns and Perl regex patterns.\n<br>\n<br> \n<br>Hyperlink addresses\n<br>If you want to change the displayed text (not the hyperlink itself), please use a Cells Search instead of, or in addition to this option. This option can be used to search and replace hyperlinks to update server names, UNC paths etc. We recommend that the Match Case option be unchecked, so that both upper case and lower case data can be found. You can use any search type, including EasyPatterns and Perl regex patterns.\n<br>\n<br>If the hyperlink address and display text are identical they will be updated simultaneously. ExcelPipe treats the two representations of space (' ' and '%20') as equivalent, however other escaped characters (in %XX form) need to be handle manually.\n<br>\n<br>Note also that sometimes the display text of a hyperlink is completely different to the actual link. To be sure that what you are replacing is correct, right click on the hyperlink in Excel and choose 'Edit Hyperlink'. You may have to perform one search for the display text and another search for the hyperlink text.\n<br>\n<br> \n<br>Searching in Built In and Custom Properties\n<br>By default a search/replace will search ALL properties.\n<br>\n<br>To specify a particular property, prefix the search string with the property name in square brackets [ .. ] e.g\n<br>\n<br>[Author]Simon\n<br>\n<br>replaces the word 'Simon' only in the [Author] field.\n<br>\n<br>Match case\n<br>Distinguishes between UPPERCASE and lowercase letters. When Match Case is selected, ExcelPipe finds only those instances in which the capitalization matches the text you typed in the Find What box.\n<br>\n<br>Match entire cell contents\n<br>Searches for matches where the entire cell has this value, rather than part of the cell.\n<br>\n<br>Prompt\n<br>When checked, displays the found text and asks for confirmation before replacing it.\n<br>\n<br>You can choose to Replace or Skip just one, the remainder in the current file, or the remainder for the whole job.\n<br>\n<br>Note: Prompting is not supported for every Look In location.\n<br>\n<br>Skip Prompt if Identical\n<br>If the search text is identical after replacing it, then skip showing the prompt. This can be very useful when using pattern matching which may not alter the text.\n<br>\n<br>Highlight replacement\n<br>Where possible, the replaced text is highlighted to make it easier to find. If you use Microsoft Excel 2003 or earlier, the highlight color can only be one of 56 standard colors, so the color you choose is automatically matched to the closest available color.\n<br>\n<br>Match half/full width forms\n<br>When checked, Unicode (double-byte) characters match only Unicode (double-byte) characters. When unchecked, Unicode (double-byte) characters match their ANSI (single-byte) equivalents.\n<br>\n<br>You can use this argument only if you've selected or installed double-byte language support in Microsoft Excel, such as for Japanese.\n<br>\n<br>Use this search/replace list\n<br>When checked, search/replace pairs are loaded from a file dynamically at run time - from Excel (.XLS files), Comma Separated Value (.CSV files) or Tab-delimited (.TAB files) formats. The current search type, search location and other options are used for every search/replace pair added. A list can also be imported using an option in the Options menu.\n<br>\n<br>For the complete file format details, please click here. You can find sample import files in the Samples folder (in .tab, .csv and .xls format).\n<br>\n<br>ExcelPipe can handle an unlimited number of replacements - but Microsoft Excel is limited to 65534 rows of data. You can work around this limit by loading multiple files from the command line. Note - despite Microsoft Excel 2007 and later being able to handle 1 million rows, it is unable to provide data beyond 65535 rows to ExcelPipe. To work around this, save your Microsoft Excel data to a .CSV or .TAB temporary file so that ExcelPipe can import all the data.\n<br>\n<br>Note: Loading large lists from Excel is very slow - export your list to .CSV or .TAB and then import that instead.\n  </p>",
+            "author": {
+                "name": "Simon"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-06-24T11:13:38+05:30",
+            "date_modified": "2021-06-24T11:13:38+05:30"
+        },
+        {
+            "id": "https://said-d-appwrk.github.io/publii-website/files-to-process/",
+            "url": "https://said-d-appwrk.github.io/publii-website/files-to-process/",
+            "title": "Files to process ",
+            "summary": " ",
+            "content_html": "\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://said-d-appwrk.github.io/publii-website/media/posts/4/files_28.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://said-d-appwrk.github.io/publii-website/media/posts/4/responsive/files_28-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/4/responsive/files_28-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/4/responsive/files_28-md.jpg 768w\"  height=\"773\" width=\"885\" alt=\"\" />\n      \n    </figure>",
+            "author": {
+                "name": "Simon"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-06-24T11:08:35+05:30",
+            "date_modified": "2021-06-24T11:08:35+05:30"
+        },
+        {
+            "id": "https://said-d-appwrk.github.io/publii-website/running-excelpipe/",
+            "url": "https://said-d-appwrk.github.io/publii-website/running-excelpipe/",
+            "title": "Running ExcelPipe",
+            "summary": " ExcelPipe has two very important pre-requisites when running Microsoft Excel is not already running (especially with open documents). No&hellip;",
+            "content_html": "\n  <p>\n    ExcelPipe has two very important pre-requisites when running<br><br><br>  <br>Microsoft Excel is not already running (especially with open documents).<br>No documents are opened by someone else (no sharing)<br><br><br>Both of these situations lead to file sharing violations. ExcelPipe may appear to hang, and you will need to Alt-Tab to Microsoft Excel to close the 'Open Read Only' dialog box.<br><br><br><br>This leads to our two recommendations when running ExcelPipe:<br><br>Please close ALL other applications. This ensures that no programs have an Excel document open.<br><br><br><br>If ExcelPipe says that Microsoft Excel is still running, you may have to press Ctrl+Alt+Del to access the Task Manager and kill of all instances of EXCEL.EXE manually.<br><br>If you are running ExcelPipe across a network, file share or remote machine of any description, you MUST ensure that ExcelPipe has exclusive access to those files, either through running ExcelPipe after hours if you are guaranteed to have exclusive access, or by denying all users access to the files while ExcelPipe is being run.<br><br><br><br>Speed and Performance<br><br>To get the fastest speed out of ExcelPipe:<br><br><br><br>Ensure you disable virus scanning so that Microsoft Excel will open documents faster<br><br>Close all other running applications<br><br>If possible, run ExcelPipe directly on your File Server (Server Edition required, and local install of MS Office)<br><br>Increase the process priority of EXCEL.EXE in task manager.<br><br>See also<br><br><br><br>Running ExcelPipe from the command line.\n  </p>",
+            "author": {
+                "name": "Simon"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-06-24T11:05:38+05:30",
+            "date_modified": "2021-06-24T11:05:38+05:30"
+        },
+        {
+            "id": "https://said-d-appwrk.github.io/publii-website/help/",
+            "url": "https://said-d-appwrk.github.io/publii-website/help/",
+            "title": "Help",
+            "summary": " Contents Displays the contents page of the ExcelPipe online help. Index Displays the index page of the ExcelPipe online&hellip;",
+            "content_html": "\n  <p>\n    <strong>Contents\n</strong><br>Displays the contents page of the ExcelPipe online help.\n<br>\n<br><strong>Index\n</strong><br>Displays the index page of the ExcelPipe online help.\n<br>\n<br><strong>Show Tip of the Day\n<br></strong>Shows or hides the Tip of the Day panel.\n<br>\n<br><strong>Buy ExcelPipe Now\n<br></strong>Opens your web browser at http://www.datamystic.com/buy.html to purchase ExcelPipe.\n<br>\n<br><strong>Order form\n<br></strong>Opens a text-based order form to order ExcelPipe.\n<br>\n<br><strong>ExcelPipe Home Page\n<br></strong>Opens your web browser at http://www.datamystic.com/excelpipe.html\n<br>\n<br><strong>DataMystic Home Page\n<br></strong>Opens your web browser at http://www.datamystic.com\n<br>\n<br><strong>Check web for ExcelPipe updates\n<br></strong>Uses the internet to find out if a new version of ExcelPipe is available. If so, you can choose to go to the DataMystic web site to download the update.\n<br>\n<br><strong>Technical support\n<br></strong>Opens your web browser at http://www.datamystic.com/support.html\n<br>\n<br><strong>About\n</strong><br>Displays ExcelPipe's About window.\n  </p>",
+            "author": {
+                "name": "Simon"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-06-24T10:52:09+05:30",
+            "date_modified": "2021-06-24T10:52:09+05:30"
+        },
+        {
+            "id": "https://said-d-appwrk.github.io/publii-website/files/",
+            "url": "https://said-d-appwrk.github.io/publii-website/files/",
+            "title": "Files",
+            "summary": " Open Opens settings from a saved ExcelPipe settings file (.EPP). You can double-click .EPP files in Windows Explorer to&hellip;",
+            "content_html": "\n  <p>\n    <strong>Open\n<br></strong>Opens settings from a saved ExcelPipe settings file (.EPP). You can double-click .EPP files in Windows Explorer to open ExcelPipe with them.\n<br>\n<br>Note - this is NOT used to open Microsoft Excel files. ExcelPipe is designed to process hundreds or thousands of Excel files, so it doesn't make sense to open them individually.\n<br>\n<br>To specify which files to process, use the Files To Process tab.\n<br>\n<br><strong>Save\n</strong><br>Saves the current settings to a ExcelPipe settings file.\n<br>\n<br><strong>Save As\n<br></strong>Saves the current settings to a ExcelPipe settings file with a new name.\n<br>\n<br><mark><strong>Recent Files\n<br></strong></mark>Contains a list of your most recently opened files.\n<br>\n<br><strong>Exit</strong>\n<br>Closes ExcelPipe.\n  </p>",
+            "author": {
+                "name": "Simon"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-06-24T10:13:54+05:30",
+            "date_modified": "2021-06-24T10:13:54+05:30"
+        }
+    ]
+}
