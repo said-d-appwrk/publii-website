@@ -3,7 +3,7 @@
     <title>Datamystic</title>
     <link href="https://said-d-appwrk.github.io/publii-website/feed.xml" rel="self" />
     <link href="https://said-d-appwrk.github.io/publii-website" />
-    <updated>2021-06-24T12:22:04+05:30</updated>
+    <updated>2021-06-24T13:13:23+05:30</updated>
     <author>
         <name>Simon</name>
     </author>
@@ -338,7 +338,7 @@
         <link href="https://said-d-appwrk.github.io/publii-website/running-excelpipe/"/>
         <id>https://said-d-appwrk.github.io/publii-website/running-excelpipe/</id>
 
-        <updated>2021-06-24T11:05:38+05:30</updated>
+        <updated>2021-06-24T13:13:23+05:30</updated>
             <summary>
                 <![CDATA[
                      ExcelPipe has two very important pre-requisites when running Microsoft Excel is not already running (especially with open documents). No&hellip;
@@ -348,8 +348,26 @@
             <![CDATA[
                 
   <p>
-    ExcelPipe has two very important pre-requisites when running<br><br><br>  <br>Microsoft Excel is not already running (especially with open documents).<br>No documents are opened by someone else (no sharing)<br><br><br>Both of these situations lead to file sharing violations. ExcelPipe may appear to hang, and you will need to Alt-Tab to Microsoft Excel to close the 'Open Read Only' dialog box.<br><br><br><br>This leads to our two recommendations when running ExcelPipe:<br><br>Please close ALL other applications. This ensures that no programs have an Excel document open.<br><br><br><br>If ExcelPipe says that Microsoft Excel is still running, you may have to press Ctrl+Alt+Del to access the Task Manager and kill of all instances of EXCEL.EXE manually.<br><br>If you are running ExcelPipe across a network, file share or remote machine of any description, you MUST ensure that ExcelPipe has exclusive access to those files, either through running ExcelPipe after hours if you are guaranteed to have exclusive access, or by denying all users access to the files while ExcelPipe is being run.<br><br><br><br>Speed and Performance<br><br>To get the fastest speed out of ExcelPipe:<br><br><br><br>Ensure you disable virus scanning so that Microsoft Excel will open documents faster<br><br>Close all other running applications<br><br>If possible, run ExcelPipe directly on your File Server (Server Edition required, and local install of MS Office)<br><br>Increase the process priority of EXCEL.EXE in task manager.<br><br>See also<br><br><br><br>Running ExcelPipe from the command line.
+    ExcelPipe has two very important pre-requisites when running<br><br>Microsoft Excel is not already running (especially with open documents).<br>No documents are opened by someone else (no sharing)<br><br>Both of these situations lead to file sharing violations. ExcelPipe may appear to hang, and you will need to Alt-Tab to Microsoft Excel to close the 'Open Read Only' dialog box.<br><br>This leads to our two recommendations when running ExcelPipe:<br><br>Please close ALL other applications. This ensures that no programs have an Excel document open.<br><br>If ExcelPipe says that Microsoft Excel is still running, you may have to press Ctrl+Alt+Del to access the Task Manager and kill of all instances of EXCEL.EXE manually.
   </p>
+<pre class="line-numbers  language-html"><code>If you are running ExcelPipe across a network, file share or remote machine of any description, you MUST ensure that ExcelPipe has exclusive access to those files, either through running ExcelPipe after hours if you are guaranteed to have exclusive access, or by denying all users access to the files while ExcelPipe is being run.
+
+Speed and Performance
+
+To get the fastest speed out of ExcelPipe:
+
+&lt;ul&gt;  
+&lt;li&gt;Ensure you disable virus scanning so that Microsoft Excel will open documents faster
+&lt;/li&gt;
+&lt;li&gt;Close all other running applications
+&lt;/li&gt;
+&lt;li&gt;If possible, run ExcelPipe directly on your File Server (Server Edition required, and local install of MS Office)
+&lt;/li&gt;
+&lt;li&gt;Increase the process priority of EXCEL.EXE in task manager.&lt;/li&gt;
+&lt;/ul&gt;
+See also
+
+Running ExcelPipe from the command line.</code></pre>
             ]]>
         </content>
     </entry>
