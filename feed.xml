@@ -3,7 +3,7 @@
     <title>Datamystic</title>
     <link href="https://said-d-appwrk.github.io/publii-website/feed.xml" rel="self" />
     <link href="https://said-d-appwrk.github.io/publii-website" />
-    <updated>2021-06-24T17:00:50+05:30</updated>
+    <updated>2021-06-24T17:03:44+05:30</updated>
     <author>
         <name>Simon</name>
     </author>
@@ -1256,7 +1256,7 @@ be a valid floating-point number.</p></div>
         <link href="https://said-d-appwrk.github.io/publii-website/actions/"/>
         <id>https://said-d-appwrk.github.io/publii-website/actions/</id>
 
-        <updated>2021-06-24T16:01:32+05:30</updated>
+        <updated>2021-06-24T17:03:44+05:30</updated>
             <summary>
                 <![CDATA[
                      This tab determines the text to be searched for, or search/replaced. Uses the search/replace pairs specified in the grid.
@@ -1288,7 +1288,7 @@ You can right click this field for a popup menu with Cut, Copy, Paste and Clear
 commands. </p>
 <p>You can search for more than one line of text at a time. If you use the 
 wildcards *, ? or ~ 
-in your Find What string, see the <a href="special.htm">special characters section</a>.</p>
+in your Find What string, see the <a href="https://said-d-appwrk.github.io/publii-website/special-characters">special characters section</a>.</p>
 
 <p><b>Searching for multiple lines</b></p>
 <p>Although the edit field can hold multiple lines of text, Microsoft Excel does NOT 
