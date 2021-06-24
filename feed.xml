@@ -3,7 +3,7 @@
     <title>Datamystic</title>
     <link href="https://said-d-appwrk.github.io/publii-website/feed.xml" rel="self" />
     <link href="https://said-d-appwrk.github.io/publii-website" />
-    <updated>2021-06-24T13:13:23+05:30</updated>
+    <updated>2021-06-24T13:18:07+05:30</updated>
     <author>
         <name>Simon</name>
     </author>
@@ -154,7 +154,7 @@
         <link href="https://said-d-appwrk.github.io/publii-website/actions/"/>
         <id>https://said-d-appwrk.github.io/publii-website/actions/</id>
 
-        <updated>2021-06-24T11:13:38+05:30</updated>
+        <updated>2021-06-24T13:18:07+05:30</updated>
             <summary>
                 <![CDATA[
                      Using these values Uses the search/replace pairs specified in the grid. Click the [Add] button to add a new&hellip;
@@ -169,42 +169,32 @@
     </figure>
 
   <p>
-    Using these values
-<br>Uses the search/replace pairs specified in the grid. Click the [Add] button to add a new row to the end of the grid. To delete rows, first select them and then click [Delete]. To edit a row, click it, and then press [F2], or click the cell a second time. You can [Tab] and [Shift-Tab] through the grid. You can change the search settings for multiple rows simultaneously by first selecting them and then changing the search settings below. You can move rows using drag and drop. Copy rows by selecting them and then clicking [Copy]. Clear All rows by clicking [Clear All].
+    <strong>Using these values
+<br></strong>Uses the search/replace pairs specified in the grid. Click the [Add] button to add a new row to the end of the grid. To delete rows, first select them and then click [Delete]. To edit a row, click it, and then press [F2], or click the cell a second time. You can [Tab] and [Shift-Tab] through the grid. You can change the search settings for multiple rows simultaneously by first selecting them and then changing the search settings below. You can move rows using drag and drop. Copy rows by selecting them and then clicking [Copy]. Clear All rows by clicking [Clear All].
 <br>
-<br>Find what
-<br>Type the information you want to search for or paste it from the Clipboard. The Find text is limited by Microsoft Excel to be a maximum length of 255 characters. You can right click this field for a popup menu with Cut, Copy, Paste and Clear commands.
+<br><strong>Find what
+<br></strong>Type the information you want to search for or paste it from the Clipboard. The Find text is limited by Microsoft Excel to be a maximum length of 255 characters. You can right click this field for a popup menu with Cut, Copy, Paste and Clear commands.
 <br>
 <br>You can search for more than one line of text at a time. If you use the wildcards *, ? or ~ in your Find What string, see the special characters section.
-<br>
-<br> 
-<br>
-<br>Searching for multiple lines
-<br>
+<br><br><strong>Searching for multiple lines
+<br></strong>
 <br>Although the edit field can hold multiple lines of text, Microsoft Excel does NOT allow you to search for multiple lines at once (and ExcelPipe cannot get around this limitation). The best way to search for multiple lines is to break them up into several line-by-line or phrase-by-phrase searches.
-<br>
-<br> 
-<br>Replacing Images
-<br>First set the Find What text to
+<br><br><strong>Replacing Images
+<br></strong>First set the Find What text to
 <br>
 <br>    ^g
 <br>
 <br>ie literally carat (Shift+6) followed by letter 'g'. Not Ctrl+G. (Astute users will notice that this is the same as with MS Word)
 <br>
 <br>Set the Replace With field to the complete path to the replacement image on disk.
-<br>
-<br> 
-<br>
-<br>Replace with
-<br>Type the text that you want to use as replacement text or paste if from the Clipboard. Leave the Replace With box empty to delete the Find What box from your document. You can right click this field for a popup menu with Cut, Copy, Paste and Clear commands.
+<br><br><strong>Replace with
+<br></strong>Type the text that you want to use as replacement text or paste if from the Clipboard. Leave the Replace With box empty to delete the Find What box from your document. You can right click this field for a popup menu with Cut, Copy, Paste and Clear commands.
 <br>
 <br>The Replace With text can include Macros such as @filename@.
 <br>
-<br>Search Type
-<br>Normal search
+<br><strong>Search Type
+<br></strong>Normal search
 <br>Matches the text exactly as written.
-<br>
-<br> 
 <br>
 <br>EasyPattern wildcards
 <br>Important Note: This search type does NOT apply to the Cells search location. For wildcard searches in Cells, use Microsoft Excel's inbuilt wildcards, with the Search Type set to 'Normal search'.
@@ -220,10 +210,8 @@
 <br>Click here for the EasyPattern basics and reference.
 <br>
 <br>EasyPatterns are easier to learn and use than perl regex patterns, but to use them in other packages you need to use EasyPattern Helper to convert them to perl regex.
-<br>
-<br> 
-<br>Perl regex wildcards
-<br>Important Note: This search type does NOT apply to the Cells search location. For wildcard searches in Cells, use Microsoft Excel's inbuilt wildcards, with the Search Type set to 'Normal search'.
+<br><br><strong>Perl regex wildcards
+<br></strong>Important Note: This search type does NOT apply to the Cells search location. For wildcard searches in Cells, use Microsoft Excel's inbuilt wildcards, with the Search Type set to 'Normal search'.
 <br>
 <br>A perl regex pattern allows you to search for a class of text strings rather than specifying every single possibility. For example, to search for a dollar sign followed by a currency amount:
 <br>
@@ -234,11 +222,9 @@
 <br>USD $1
 <br>
 <br>Click here for the Perl regex reference.
-<br>
 <br>Perl regex patterns are harder to learn and use than EasyPatterns, but they are support by a huge range of applications.
 <br>
-<br>Look In (Search location)
-<br>Cells - look in each cell
+<br><strong>Look In (Search location)&nbsp;</strong><strong><br></strong>Cells - look in each cell
 <br>Hyperlink addresses (*) - look inside hyperlink addresses. To change the displayed text, use the 'Cells' option above as well
 <br>Shapes/Shapes and Text Boxes (*) - inside the text of shapes and grouped shapes and text boxes
 <br>Headers (*) - search inside the left, centre and right header of each sheet
@@ -253,16 +239,16 @@
 <br>Items with (*) support the use of EasyPatterns and Perl regex patterns.
 <br>
 <br> 
-<br>Hyperlink addresses
-<br>If you want to change the displayed text (not the hyperlink itself), please use a Cells Search instead of, or in addition to this option. This option can be used to search and replace hyperlinks to update server names, UNC paths etc. We recommend that the Match Case option be unchecked, so that both upper case and lower case data can be found. You can use any search type, including EasyPatterns and Perl regex patterns.
+<br><strong>Hyperlink addresses
+<br></strong>If you want to change the displayed text (not the hyperlink itself), please use a Cells Search instead of, or in addition to this option. This option can be used to search and replace hyperlinks to update server names, UNC paths etc. We recommend that the Match Case option be unchecked, so that both upper case and lower case data can be found. You can use any search type, including EasyPatterns and Perl regex patterns.
 <br>
 <br>If the hyperlink address and display text are identical they will be updated simultaneously. ExcelPipe treats the two representations of space (' ' and '%20') as equivalent, however other escaped characters (in %XX form) need to be handle manually.
 <br>
 <br>Note also that sometimes the display text of a hyperlink is completely different to the actual link. To be sure that what you are replacing is correct, right click on the hyperlink in Excel and choose 'Edit Hyperlink'. You may have to perform one search for the display text and another search for the hyperlink text.
 <br>
 <br> 
-<br>Searching in Built In and Custom Properties
-<br>By default a search/replace will search ALL properties.
+<br><strong>Searching in Built In and Custom Properties
+<br></strong>By default a search/replace will search ALL properties.
 <br>
 <br>To specify a particular property, prefix the search string with the property name in square brackets [ .. ] e.g
 <br>
@@ -270,14 +256,14 @@
 <br>
 <br>replaces the word 'Simon' only in the [Author] field.
 <br>
-<br>Match case
-<br>Distinguishes between UPPERCASE and lowercase letters. When Match Case is selected, ExcelPipe finds only those instances in which the capitalization matches the text you typed in the Find What box.
+<br><strong>Match case
+<br></strong>Distinguishes between UPPERCASE and lowercase letters. When Match Case is selected, ExcelPipe finds only those instances in which the capitalization matches the text you typed in the Find What box.
 <br>
-<br>Match entire cell contents
-<br>Searches for matches where the entire cell has this value, rather than part of the cell.
+<br><strong>Match entire cell contents
+<br></strong>Searches for matches where the entire cell has this value, rather than part of the cell.
 <br>
-<br>Prompt
-<br>When checked, displays the found text and asks for confirmation before replacing it.
+<br><strong>Prompt
+</strong><br>When checked, displays the found text and asks for confirmation before replacing it.
 <br>
 <br>You can choose to Replace or Skip just one, the remainder in the current file, or the remainder for the whole job.
 <br>
@@ -286,16 +272,16 @@
 <br>Skip Prompt if Identical
 <br>If the search text is identical after replacing it, then skip showing the prompt. This can be very useful when using pattern matching which may not alter the text.
 <br>
-<br>Highlight replacement
-<br>Where possible, the replaced text is highlighted to make it easier to find. If you use Microsoft Excel 2003 or earlier, the highlight color can only be one of 56 standard colors, so the color you choose is automatically matched to the closest available color.
+<br><strong>Highlight replacement
+<br></strong>Where possible, the replaced text is highlighted to make it easier to find. If you use Microsoft Excel 2003 or earlier, the highlight color can only be one of 56 standard colors, so the color you choose is automatically matched to the closest available color.
 <br>
-<br>Match half/full width forms
-<br>When checked, Unicode (double-byte) characters match only Unicode (double-byte) characters. When unchecked, Unicode (double-byte) characters match their ANSI (single-byte) equivalents.
+<br><strong>Match half/full width forms
+<br></strong>When checked, Unicode (double-byte) characters match only Unicode (double-byte) characters. When unchecked, Unicode (double-byte) characters match their ANSI (single-byte) equivalents.
 <br>
 <br>You can use this argument only if you've selected or installed double-byte language support in Microsoft Excel, such as for Japanese.
 <br>
-<br>Use this search/replace list
-<br>When checked, search/replace pairs are loaded from a file dynamically at run time - from Excel (.XLS files), Comma Separated Value (.CSV files) or Tab-delimited (.TAB files) formats. The current search type, search location and other options are used for every search/replace pair added. A list can also be imported using an option in the Options menu.
+<br><strong>Use this search/replace list
+<br></strong>When checked, search/replace pairs are loaded from a file dynamically at run time - from Excel (.XLS files), Comma Separated Value (.CSV files) or Tab-delimited (.TAB files) formats. The current search type, search location and other options are used for every search/replace pair added. A list can also be imported using an option in the Options menu.
 <br>
 <br>For the complete file format details, please click here. You can find sample import files in the Samples folder (in .tab, .csv and .xls format).
 <br>
@@ -338,7 +324,7 @@
         <link href="https://said-d-appwrk.github.io/publii-website/running-excelpipe/"/>
         <id>https://said-d-appwrk.github.io/publii-website/running-excelpipe/</id>
 
-        <updated>2021-06-24T13:13:23+05:30</updated>
+        <updated>2021-06-24T13:15:55+05:30</updated>
             <summary>
                 <![CDATA[
                      ExcelPipe has two very important pre-requisites when running Microsoft Excel is not already running (especially with open documents). No&hellip;
@@ -348,26 +334,26 @@
             <![CDATA[
                 
   <p>
-    ExcelPipe has two very important pre-requisites when running<br><br>Microsoft Excel is not already running (especially with open documents).<br>No documents are opened by someone else (no sharing)<br><br>Both of these situations lead to file sharing violations. ExcelPipe may appear to hang, and you will need to Alt-Tab to Microsoft Excel to close the 'Open Read Only' dialog box.<br><br>This leads to our two recommendations when running ExcelPipe:<br><br>Please close ALL other applications. This ensures that no programs have an Excel document open.<br><br>If ExcelPipe says that Microsoft Excel is still running, you may have to press Ctrl+Alt+Del to access the Task Manager and kill of all instances of EXCEL.EXE manually.
+    ExcelPipe has two very important pre-requisites when running<br><br>Microsoft Excel is not already running (especially with open documents).<br>No documents are opened by someone else (no sharing)<br><br>Both of these situations lead to file sharing violations. ExcelPipe may appear to hang, and you will need to Alt-Tab to Microsoft Excel to close the 'Open Read Only' dialog box.<br><br>This leads to our two recommendations when running ExcelPipe:<br><br>Please close ALL other applications. This ensures that no programs have an Excel document open.<br><br>If ExcelPipe says that Microsoft Excel is still running, you may have to press Ctrl+Alt+Del to access the Task Manager and kill of all instances of EXCEL.EXE manually
   </p>
-<pre class="line-numbers  language-html"><code>If you are running ExcelPipe across a network, file share or remote machine of any description, you MUST ensure that ExcelPipe has exclusive access to those files, either through running ExcelPipe after hours if you are guaranteed to have exclusive access, or by denying all users access to the files while ExcelPipe is being run.
 
-Speed and Performance
+  <p>
+    If you are running ExcelPipe across a network, file share or remote machine of any description, you MUST ensure that ExcelPipe has exclusive access to those files, either through running ExcelPipe after hours if you are guaranteed to have exclusive access, or by denying all users access to the files while ExcelPipe is being run.&nbsp;
+  </p>
 
-To get the fastest speed out of ExcelPipe:
+  <p>
+    <strong>Speed and Performance
+<br></strong>To get the fastest speed out of ExcelPipe:
+<br>Ensure you disable virus scanning so that Microsoft Excel will open documents faster
+<br>Close all other running applications
+<br>If possible, run ExcelPipe directly on your File Server (Server Edition required, and local install of MS Office)
+<br>Increase the process priority of EXCEL.EXE in task manager.&nbsp;
+  </p>
 
-&lt;ul&gt;  
-&lt;li&gt;Ensure you disable virus scanning so that Microsoft Excel will open documents faster
-&lt;/li&gt;
-&lt;li&gt;Close all other running applications
-&lt;/li&gt;
-&lt;li&gt;If possible, run ExcelPipe directly on your File Server (Server Edition required, and local install of MS Office)
-&lt;/li&gt;
-&lt;li&gt;Increase the process priority of EXCEL.EXE in task manager.&lt;/li&gt;
-&lt;/ul&gt;
-See also
-
-Running ExcelPipe from the command line.</code></pre>
+  <p>
+    <strong>See also
+<br></strong>Running ExcelPipe from the command line.
+  </p>
             ]]>
         </content>
     </entry>
