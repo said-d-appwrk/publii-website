@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Datamystic</title>
+    <title>Excel | DataMystic</title>
     <link href="https://said-d-appwrk.github.io/publii-website/feed.xml" rel="self" />
     <link href="https://said-d-appwrk.github.io/publii-website" />
     <updated>2021-06-24T17:03:44+05:30</updated>
@@ -20,7 +20,7 @@
         <updated>2021-06-24T17:00:50+05:30</updated>
             <summary>
                 <![CDATA[
-                     The special codes in the Find What and Replace With boxes depends on which type of match is being&hellip;
+                     The special codes in the Find What and Replace With boxes depends on which type of match is being used. Microsoft Excel provides the&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -646,7 +646,7 @@ type a double tilde (~~). </p>
         <updated>2021-06-24T16:37:10+05:30</updated>
             <summary>
                 <![CDATA[
-                     Connecting to a SharePoint Server ExcelPipe can connect to SharePoint in a number of ways: A SharePoint server link&hellip;
+                     Connecting to a SharePoint Server ExcelPipe can connect to SharePoint in a number of ways: A SharePoint server link e.g. http://... A UNC path&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -677,7 +677,7 @@ type a double tilde (~~). </p>
         <updated>2021-06-24T16:25:51+05:30</updated>
             <summary>
                 <![CDATA[
-                     ExcelPipe can be run from a DOS shell or from a shortcut with parameters to make it run automatically.
+                     ExcelPipe can be run from a DOS shell or from a shortcut with parameters to make it run automatically. This is very useful for&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -826,14 +826,14 @@ just type the single alternative you require. </p>
         <updated>2021-06-24T16:17:21+05:30</updated>
             <summary>
                 <![CDATA[
-                     During processing, ExcelPipe displays the current status. You can double click on filenames in the list to open them.
+                     During processing, ExcelPipe displays the current status. You can double click on filenames in the list to open them. This button copies the log&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 
     <figure class="post__image post__image--wide">
-      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/11/status3.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/11/responsive/status3-xs.png 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/11/responsive/status3-sm.png 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/11/responsive/status3-md.png 768w"  height="320" width="1099" alt="" />
+      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/11/status3.png" sizes="(max-width: 768px) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/11/responsive/status3-xs.png 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/11/responsive/status3-sm.png 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/11/responsive/status3-md.png 768w"  height="320" width="1099" alt="" />
       
     </figure>
 <div>
@@ -914,7 +914,7 @@ which is very useful to check new links before they are changed.</p>
 </div>
 
     <figure class="post__image post__image--wide">
-      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/11/image001.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/11/responsive/image001-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/11/responsive/image001-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/11/responsive/image001-md.jpg 768w"  height="398" width="880" alt="" />
+      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/11/image001.jpg" sizes="(max-width: 768px) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/11/responsive/image001-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/11/responsive/image001-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/11/responsive/image001-md.jpg 768w"  height="398" width="880" alt="" />
       
     </figure>
 <div><h2>Errors 
@@ -935,14 +935,14 @@ were encountered, such as documents requiring a password for open or modify.</p>
         <updated>2021-06-24T16:13:27+05:30</updated>
             <summary>
                 <![CDATA[
-                     Start searching (F5) When you click this button or press [F5], ExcelPipe will begin searching for the search text.
+                     Start searching (F5) When you click this button or press [F5], ExcelPipe will begin searching for the search text. No replacements will be made.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 
     <figure class="post__image post__image--wide">
-      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/10/go.htm29.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/10/responsive/go.htm29-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/10/responsive/go.htm29-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/10/responsive/go.htm29-md.jpg 768w"  height="773" width="885" alt="" />
+      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/10/go.htm29.jpg" sizes="(max-width: 768px) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/10/responsive/go.htm29-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/10/responsive/go.htm29-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/10/responsive/go.htm29-md.jpg 768w"  height="773" width="885" alt="" />
       
     </figure>
 <div><h2>Start searching (F5)</h2>
@@ -971,7 +971,7 @@ which is very useful to check new links before they are changed.</p>
         <updated>2021-06-24T12:22:04+05:30</updated>
             <summary>
                 <![CDATA[
-                    ExcelPipe allows you to quickly and easily search and replace across thousands of Excel spreadsheets. ExcelPipe allows all user settings&hellip;
+                    ExcelPipe allows you to quickly and easily search and replace across thousands of Excel spreadsheets. ExcelPipe allows all user settings to be saved and opened&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -1009,7 +1009,7 @@ which is very useful to check new links before they are changed.</p>
         <updated>2021-06-24T11:41:58+05:30</updated>
             <summary>
                 <![CDATA[
-                     For new users ExcelPipe quickly and easily searches and replaces across thousands of Excel spreadsheets. [more] To use ExcelPipe:&hellip;
+                     For new users ExcelPipe quickly and easily searches and replaces across thousands of Excel spreadsheets. [more] To use ExcelPipe: Drag and drop your files&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -1060,14 +1060,14 @@ which is very useful to check new links before they are changed.</p>
         <updated>2021-06-24T16:12:38+05:30</updated>
             <summary>
                 <![CDATA[
-                     Restart control File to restart after If you need to restart a job to recover from an error, specify&hellip;
+                     Restart control File to restart after If you need to restart a job to recover from an error, specify the restart filename in this&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 
     <figure class="post__image post__image--wide">
-      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/7/restar32.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/7/responsive/restar32-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/7/responsive/restar32-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/7/responsive/restar32-md.jpg 768w"  height="773" width="885" alt="" />
+      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/7/restar32.jpg" sizes="(max-width: 768px) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/7/responsive/restar32-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/7/responsive/restar32-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/7/responsive/restar32-md.jpg 768w"  height="773" width="885" alt="" />
       
     </figure>
 <div><h2>Restart control</h2>
@@ -1122,14 +1122,14 @@ possibly in C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE.</p></div>
         <updated>2021-06-24T16:11:29+05:30</updated>
             <summary>
                 <![CDATA[
-                     Backup mode Save a backup of any modified files. If the original file was called test.xls, the backup is&hellip;
+                     Backup mode Save a backup of any modified files. If the original file was called test.xls, the backup is saved to test.bak. When checked,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 
     <figure class="post__image post__image--wide">
-      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/6/option30.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-md.jpg 768w"  height="773" width="885" alt="" />
+      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/6/option30.jpg" sizes="(max-width: 768px) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-md.jpg 768w"  height="773" width="885" alt="" />
       
     </figure>
 <div>
@@ -1259,14 +1259,14 @@ be a valid floating-point number.</p></div>
         <updated>2021-06-24T17:03:44+05:30</updated>
             <summary>
                 <![CDATA[
-                     This tab determines the text to be searched for, or search/replaced. Uses the search/replace pairs specified in the grid.
+                     This tab determines the text to be searched for, or search/replaced. Uses the search/replace pairs specified in the grid. Click the [Add] button to&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 
     <figure class="post__image post__image--wide">
-      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/5/replac31.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/5/responsive/replac31-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/5/responsive/replac31-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/5/responsive/replac31-md.jpg 768w"  height="773" width="885" alt="" />
+      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/5/replac31.jpg" sizes="(max-width: 768px) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/5/responsive/replac31-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/5/responsive/replac31-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/5/responsive/replac31-md.jpg 768w"  height="773" width="885" alt="" />
       
     </figure>
 <div>
