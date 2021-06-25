@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://said-d-appwrk.github.io/publii-website/features/",
+            "url": "https://said-d-appwrk.github.io/publii-website/features/",
+            "title": "Features",
+            "summary": " ExcelPipe takes ALL the hard work out of replacing text across multiple Microsoft Excel spreadsheets. Just imagine - next time your organization changes its&hellip;",
+            "content_html": "<div>\n<p><font style=\"font-size: 8pt\">ExcelPipe takes ALL the hard work out of \nreplacing text across multiple Microsoft Excel spreadsheets. Just imagine - next \ntime your organization changes its phone number, address, web site or CEO - just \nrun ExcelPipe across your file server or website to fix all affected spreadsheets in \none hit.</font></p>\n<h3>[ user benefits ]</h3>\n<font style=\"font-size: 8pt\">\n<ul>\n  <li>Fast!</li>\n  <li>No limit on the number of spreadsheets processed - use it across an entire \n  file server or web server</li>\n  <li>Translators can import <b>search/replace lists</b> from Excel, CSV- or \n  Tab-delimited files</li>\n  <li>Easy to use with integrated online help</li>\n  <li>Supports the same search and replace options as Microsoft Excel</li>\n  <li>Stand-alone - doesn't integrate directly with Excel so it doesn't \n  destabilize your installation</li>\n  <li>Translations are available for other languages</li>\n</ul>\n</font>\n<h3>[ features ]</h3>\n<font style=\"font-size: 8pt\">\n</font><ul><font style=\"font-size: 8pt\">\n  <li>Handles Unicode (foreign language) search and replace</li>\n\t<li>The only tool to offer IMAGE search and replacement</li>\n  <li>Handles multiple searches at the same time</li>\n  <li>Search and replace with all Excel's options such as  Match Case, Whole \n  Cell/Partial Cell etc</li>\n  <li>Handles any number of sub folders</li>\n  <li>Control the spreadsheet types used - so you can process .xls, or any custom \n  spreadsheet type</li>\n  <li>Can be automated via the command line</li>\n  <li>Handles password-protected spreadsheets - these get flagged for manual \n  follow-up</li>\n  <li>Search-only mode</li>\n  <li>The original file date and time stamp can be preserved.</li>\n  <li>Easy to install/uninstall</li>\n</font>\n\n</ul>\n\n<p><i>See also</i></p>\n\n<blockquote>\n  <p><a href=\"https://said-d-appwrk.github.io/publii-website/what-is-excelpipe\">What is ExcelPipe?<br>\n  </a><a href=\"whatsnew.txt\">New features in this release</a><br>\n  </p>\n</blockquote></div>",
+            "author": {
+                "name": "Simon"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-06-25T12:05:54+05:30",
+            "date_modified": "2021-06-25T12:07:09+05:30"
+        },
+        {
             "id": "https://said-d-appwrk.github.io/publii-website/installation/",
             "url": "https://said-d-appwrk.github.io/publii-website/installation/",
             "title": "Installation",
@@ -97,15 +111,15 @@
             "id": "https://said-d-appwrk.github.io/publii-website/what-is-excelpipe/",
             "url": "https://said-d-appwrk.github.io/publii-website/what-is-excelpipe/",
             "title": "What is ExcelPipe?",
-            "summary": "ExcelPipe allows you to quickly and easily search and replace across thousands of Excel spreadsheets. ExcelPipe allows all user settings to be saved and opened&hellip;",
-            "content_html": "<div><p>ExcelPipe allows you to quickly and easily search and replace across thousands of Excel spreadsheets.\n<br>\n<br>ExcelPipe allows all user settings to be saved and opened so that the same tasks can be repeated in the future without re-keying.\n<br>\n<br>It also has a search-only mode, so you can identify which documents contain text that needs to be manually fixed.\n<br>\n<br><strong>See also\n<br></strong>\n<ol>\n<li>Features</li>\n<li>New features in this release</li>\n</ol>\n</p>\n\n</div>\n\n  <p>\n    \n  </p>",
+            "summary": " & ExcelPipe allows you to quickly and easily search and replace across thousands of Excel spreadsheets. ExcelPipe allows all user settings to be saved&hellip;",
+            "content_html": "<div><td valign=\"top\">\n\n<p>&</p><p>ExcelPipe allows you to quickly and easily search and replace across thousands \nof Excel spreadsheets. \n\n</p><p>ExcelPipe allows all user settings to be saved and opened so that the same tasks can be\nrepeated in the future without re-keying.</p>\n\n<p>It also has a search-only mode, so you can identify which documents contain \ntext that needs to be manually fixed.</p>\n\n<p><i>See also</i></p>\n\n<blockquote>\n  <p><a href=\"https://said-d-appwrk.github.io/publii-website/features\">Features<br>\n  </a><a href=\"whatsnew.txt\">New features in this release<br>\n  </a></p>\n</blockquote>\n\n<!--msnavigation--></td>  \n</div>\n\n  <p>\n    \n  </p>",
             "author": {
                 "name": "Simon"
             },
             "tags": [
             ],
             "date_published": "2021-06-24T12:22:04+05:30",
-            "date_modified": "2021-06-24T12:22:04+05:30"
+            "date_modified": "2021-06-25T12:08:59+05:30"
         },
         {
             "id": "https://said-d-appwrk.github.io/publii-website/home/",
@@ -134,20 +148,6 @@
             ],
             "date_published": "2021-06-24T11:15:00+05:30",
             "date_modified": "2021-06-24T16:12:38+05:30"
-        },
-        {
-            "id": "https://said-d-appwrk.github.io/publii-website/options/",
-            "url": "https://said-d-appwrk.github.io/publii-website/options/",
-            "title": "Options ",
-            "summary": " Backup mode Save a backup of any modified files. If the original file was called test.xls, the backup is saved to test.bak. When checked,&hellip;",
-            "content_html": "\n    <figure class=\"post__image post__image--wide\">\n      <img loading=\"lazy\" src=\"https://said-d-appwrk.github.io/publii-website/media/posts/6/option30.jpg\" sizes=\"(max-width: 768px) 100vw, 768px\" srcset=\"https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-md.jpg 768w\"  height=\"773\" width=\"885\" alt=\"\" />\n      \n    </figure>\n<div>\n<h2>Backup mode</h2>\n<p>Save a backup of any modified files. If the original file was called test.xls, \nthe backup is saved to test.bak.</p>\n<h2>Retain file Modified dates</h2>\n<p>When checked, the original file date of files is retained.</p>\n<h2>Retain file Last Access dates</h2>\n<p>When checked, the original Last Accessed date of files is retained. This \nallows your organization's data retention policy to be maintained, as documents \nthat have not been accessed by a human still retain their original date.</p>\n<h2>Allow alerts (necessary for mail merge)</h2>\n<p>Normally ExcelPipe disables alerts from Microsoft Excel, which is fine in \nmost cases as the default choice is selected. </p>\n<h2>Process longest 'Find what' strings first</h2>\n\t\t<p>Very useful for translators, this option causes the search/replace \n\t\tlist to be first sorted in order of the longest (i.e. most specific) Find What strings first. \n\t\tA good example is this:</p>\n\t\t<table border=\"1\" id=\"table1\">\n\t\t\t<tbody><tr>\n\t\t\t\t<td><b>No.</b></td>\n\t\t\t\t<td><b>Find What - English</b></td>\n\t\t\t\t<td><b>Replace with - Spanish translation</b></td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>1.</td>\n\t\t\t\t<td>Parent</td>\n\t\t\t\t<td>Padre</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>2.</td>\n\t\t\t\t<td>Parent Information</td>\n\t\t\t\t<td>Information sobre los padres</td>\n\t\t\t</tr>\n\t\t\t</tbody></table>\n\t\t<p>If the string 'Parent Information' is found in the file, it gets \n\t\treplaced by '<span style=\"background-color: #FFFF00\">Padre</span> \n\t\tInformation', and the second row is never used. This situation is \n\t\tavoided by first sorting the list so that the longest (i.e. most \n\t\tspecific) replacements are first.</p>\n<h2>Process read only files</h2>\n\t\t<p>When checked, if read-only files are encountered, they are first \n\t\tchanged to read-write, processed, and then set back to read-only status. \n\t\tWhen unchecked, read-only files are skipped.</p>\n<h2>Process hidden rows and columns</h2>\n\t\t<p>By default, hidden rows and columns are not searched. Check this \n\t\toption to -> this can be slightly slower.</p>\n<h2>Keep Microsoft Excel visible while changes are being made</h2>\n<p>While slower, this option can be useful for debugging and monitoring what \nExcelPipe is doing.</p>\n<h2>Accept Revisions</h2>\n<p>Accepts revisions before processing - otherwise they can prevent matches from \nbeing found.</p>\n<h2>Disable Addins</h2>\n<p>Checked by default, this option disables Microsoft Excel AddIns in case they \ninterfere with the search/replace process. If you need an AddIn to remain loaded \nthen uncheck this box.</p>\n<h2>Prevent overlap of search/replaces</h2>\n<p>Prevent chaining of search/replaces where a early replace gets changed by a \nsubsequent search e.g. with the following set of replacements:</p>\n<table border=\"1\" width=\"228\" id=\"table2\">\n\t<tbody><tr>\n\t\t<td width=\"27\"><b>Line</b></td>\n\t\t<td width=\"86\"><b>Search for</b></td>\n\t\t<td width=\"93\"><b>Replace with</b></td>\n\t</tr>\n\t<tr>\n\t\t<td width=\"27\">1</td>\n\t\t<td width=\"86\">cat</td>\n\t\t<td width=\"93\">dog</td>\n\t</tr>\n\t<tr>\n\t\t<td width=\"27\">2</td>\n\t\t<td width=\"86\">dog</td>\n\t\t<td width=\"93\">rat</td>\n\t</tr>\n\t<tr>\n\t\t<td width=\"27\">3</td>\n\t\t<td width=\"86\">rat</td>\n\t\t<td width=\"93\">foo</td>\n\t</tr>\n</tbody></table>\n<p>Imagine the sentence 'A cat bit the dog'. This will be changed to 'A foo bit \nthe foo' because the replacement on one line is found by the search on the next \nline.</p>\n<p>When this option is checked, the replacement becomes 'A dog bit the rat'.</p>\n<h2>Password for open</h2>\n<p>If a document requires a password for open, ExcelPipe will open it using this \npassword. The password is ignored if it is not required to open the document. If \nthe password is wrong the document is skipped.</p>\n<p>This can be handy if you have multiple password-protected documents sharing \nthe same protection password.</p>\n<h2>Password to unprotect sheet/workbook</h2>\n<p>If a sheet or workbook requires a password to modify it, ExcelPipe will provide this \npassword. The password is ignored if not required.</p>\n<p>This password is also used if you specify a Code Module search and a \nVBProject is found to be protected.</p>\n<p>ExcelPipe restores the original protection when it saves the file.</p>\n\t\t<h2>ISO-9001 version control</h2>\n<p>If your company is certified to the international ISO-9001 standard, it's \nessential that you also update each document's version number when any changes \nare made.</p>\n<p>With ExcelPipe, you can automatically update the version number by 1.0 or 0.1 \nor any other amount automatically.</>\n\n\t\t<h3>'Revision' document property name</h3>\n<p>This is the name of the custom property that holds the version number in the \ndocument, usually 'DocRevision' or similar. For more information,\n<a target=\"_blank\" href=\"http://www.datamystic.com/wordpipe/document_versions.html\">\nplease click here.</a> This field is NOT case-sensitive.</p>\n\n\t\t<h3>Increment</h3>\n<p>The amount to increment the revision by, usually 1.0 or 0.1. This value must \nbe a valid floating-point number.</p></div>",
-            "author": {
-                "name": "Simon"
-            },
-            "tags": [
-            ],
-            "date_published": "2021-06-24T11:14:26+05:30",
-            "date_modified": "2021-06-24T16:11:29+05:30"
         }
     ]
 }

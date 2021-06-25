@@ -3,12 +3,80 @@
     <title>Excel | DataMystic</title>
     <link href="https://said-d-appwrk.github.io/publii-website/feed.xml" rel="self" />
     <link href="https://said-d-appwrk.github.io/publii-website" />
-    <updated>2021-06-25T11:55:12+05:30</updated>
+    <updated>2021-06-25T12:08:59+05:30</updated>
     <author>
         <name>Simon</name>
     </author>
     <id>https://said-d-appwrk.github.io/publii-website</id>
 
+    <entry>
+        <title>Features</title>
+        <author>
+            <name>Simon</name>
+        </author>
+        <link href="https://said-d-appwrk.github.io/publii-website/features/"/>
+        <id>https://said-d-appwrk.github.io/publii-website/features/</id>
+
+        <updated>2021-06-25T12:07:09+05:30</updated>
+            <summary>
+                <![CDATA[
+                     ExcelPipe takes ALL the hard work out of replacing text across multiple Microsoft Excel spreadsheets. Just imagine - next time your organization changes its&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div>
+<p><font style="font-size: 8pt">ExcelPipe takes ALL the hard work out of 
+replacing text across multiple Microsoft Excel spreadsheets. Just imagine - next 
+time your organization changes its phone number, address, web site or CEO - just 
+run ExcelPipe across your file server or website to fix all affected spreadsheets in 
+one hit.</font></p>
+<h3>[ user benefits ]</h3>
+<font style="font-size: 8pt">
+<ul>
+  <li>Fast!</li>
+  <li>No limit on the number of spreadsheets processed - use it across an entire 
+  file server or web server</li>
+  <li>Translators can import <b>search/replace lists</b> from Excel, CSV- or 
+  Tab-delimited files</li>
+  <li>Easy to use with integrated online help</li>
+  <li>Supports the same search and replace options as Microsoft Excel</li>
+  <li>Stand-alone - doesn't integrate directly with Excel so it doesn't 
+  destabilize your installation</li>
+  <li>Translations are available for other languages</li>
+</ul>
+</font>
+<h3>[ features ]</h3>
+<font style="font-size: 8pt">
+</font><ul><font style="font-size: 8pt">
+  <li>Handles Unicode (foreign language) search and replace</li>
+	<li>The only tool to offer IMAGE search and replacement</li>
+  <li>Handles multiple searches at the same time</li>
+  <li>Search and replace with all Excel's options such as  Match Case, Whole 
+  Cell/Partial Cell etc</li>
+  <li>Handles any number of sub folders</li>
+  <li>Control the spreadsheet types used - so you can process .xls, or any custom 
+  spreadsheet type</li>
+  <li>Can be automated via the command line</li>
+  <li>Handles password-protected spreadsheets - these get flagged for manual 
+  follow-up</li>
+  <li>Search-only mode</li>
+  <li>The original file date and time stamp can be preserved.</li>
+  <li>Easy to install/uninstall</li>
+</font>
+
+</ul>
+
+<p><i>See also</i></p>
+
+<blockquote>
+  <p><a href="https://said-d-appwrk.github.io/publii-website/what-is-excelpipe">What is ExcelPipe?<br>
+  </a><a href="whatsnew.txt">New features in this release</a><br>
+  </p>
+</blockquote></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Installation</title>
         <author>
@@ -1007,28 +1075,34 @@ which is very useful to check new links before they are changed.</p>
         <link href="https://said-d-appwrk.github.io/publii-website/what-is-excelpipe/"/>
         <id>https://said-d-appwrk.github.io/publii-website/what-is-excelpipe/</id>
 
-        <updated>2021-06-24T12:22:04+05:30</updated>
+        <updated>2021-06-25T12:08:59+05:30</updated>
             <summary>
                 <![CDATA[
-                    ExcelPipe allows you to quickly and easily search and replace across thousands of Excel spreadsheets. ExcelPipe allows all user settings to be saved and opened&hellip;
+                     & ExcelPipe allows you to quickly and easily search and replace across thousands of Excel spreadsheets. ExcelPipe allows all user settings to be saved&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <div><p>ExcelPipe allows you to quickly and easily search and replace across thousands of Excel spreadsheets.
-<br>
-<br>ExcelPipe allows all user settings to be saved and opened so that the same tasks can be repeated in the future without re-keying.
-<br>
-<br>It also has a search-only mode, so you can identify which documents contain text that needs to be manually fixed.
-<br>
-<br><strong>See also
-<br></strong>
-<ol>
-<li>Features</li>
-<li>New features in this release</li>
-</ol>
-</p>
+                <div><td valign="top">
 
+<p>&</p><p>ExcelPipe allows you to quickly and easily search and replace across thousands 
+of Excel spreadsheets. 
+
+</p><p>ExcelPipe allows all user settings to be saved and opened so that the same tasks can be
+repeated in the future without re-keying.</p>
+
+<p>It also has a search-only mode, so you can identify which documents contain 
+text that needs to be manually fixed.</p>
+
+<p><i>See also</i></p>
+
+<blockquote>
+  <p><a href="https://said-d-appwrk.github.io/publii-website/features">Features<br>
+  </a><a href="whatsnew.txt">New features in this release<br>
+  </a></p>
+</blockquote>
+
+<!--msnavigation--></td>  
 </div>
 
   <p>
@@ -1147,143 +1221,6 @@ the System Registry, making it impossible to restart using normal methods. By
 specifying the path to Microsoft Excel, you can get ExcelPipe to attempt to 
 restart Microsoft Excel directly. Use the browse button to locate EXCEL.EXE, 
 possibly in C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE.</p></div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Options </title>
-        <author>
-            <name>Simon</name>
-        </author>
-        <link href="https://said-d-appwrk.github.io/publii-website/options/"/>
-        <id>https://said-d-appwrk.github.io/publii-website/options/</id>
-
-        <updated>2021-06-24T16:11:29+05:30</updated>
-            <summary>
-                <![CDATA[
-                     Backup mode Save a backup of any modified files. If the original file was called test.xls, the backup is saved to test.bak. When checked,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                
-    <figure class="post__image post__image--wide">
-      <img loading="lazy" src="https://said-d-appwrk.github.io/publii-website/media/posts/6/option30.jpg" sizes="(max-width: 768px) 100vw, 768px" srcset="https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-xs.jpg 300w ,https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-sm.jpg 480w ,https://said-d-appwrk.github.io/publii-website/media/posts/6/responsive/option30-md.jpg 768w"  height="773" width="885" alt="" />
-      
-    </figure>
-<div>
-<h2>Backup mode</h2>
-<p>Save a backup of any modified files. If the original file was called test.xls, 
-the backup is saved to test.bak.</p>
-<h2>Retain file Modified dates</h2>
-<p>When checked, the original file date of files is retained.</p>
-<h2>Retain file Last Access dates</h2>
-<p>When checked, the original Last Accessed date of files is retained. This 
-allows your organization's data retention policy to be maintained, as documents 
-that have not been accessed by a human still retain their original date.</p>
-<h2>Allow alerts (necessary for mail merge)</h2>
-<p>Normally ExcelPipe disables alerts from Microsoft Excel, which is fine in 
-most cases as the default choice is selected. </p>
-<h2>Process longest 'Find what' strings first</h2>
-		<p>Very useful for translators, this option causes the search/replace 
-		list to be first sorted in order of the longest (i.e. most specific) Find What strings first. 
-		A good example is this:</p>
-		<table border="1" id="table1">
-			<tbody><tr>
-				<td><b>No.</b></td>
-				<td><b>Find What - English</b></td>
-				<td><b>Replace with - Spanish translation</b></td>
-			</tr>
-			<tr>
-				<td>1.</td>
-				<td>Parent</td>
-				<td>Padre</td>
-			</tr>
-			<tr>
-				<td>2.</td>
-				<td>Parent Information</td>
-				<td>Information sobre los padres</td>
-			</tr>
-			</tbody></table>
-		<p>If the string 'Parent Information' is found in the file, it gets 
-		replaced by '<span style="background-color: #FFFF00">Padre</span> 
-		Information', and the second row is never used. This situation is 
-		avoided by first sorting the list so that the longest (i.e. most 
-		specific) replacements are first.</p>
-<h2>Process read only files</h2>
-		<p>When checked, if read-only files are encountered, they are first 
-		changed to read-write, processed, and then set back to read-only status. 
-		When unchecked, read-only files are skipped.</p>
-<h2>Process hidden rows and columns</h2>
-		<p>By default, hidden rows and columns are not searched. Check this 
-		option to -> this can be slightly slower.</p>
-<h2>Keep Microsoft Excel visible while changes are being made</h2>
-<p>While slower, this option can be useful for debugging and monitoring what 
-ExcelPipe is doing.</p>
-<h2>Accept Revisions</h2>
-<p>Accepts revisions before processing - otherwise they can prevent matches from 
-being found.</p>
-<h2>Disable Addins</h2>
-<p>Checked by default, this option disables Microsoft Excel AddIns in case they 
-interfere with the search/replace process. If you need an AddIn to remain loaded 
-then uncheck this box.</p>
-<h2>Prevent overlap of search/replaces</h2>
-<p>Prevent chaining of search/replaces where a early replace gets changed by a 
-subsequent search e.g. with the following set of replacements:</p>
-<table border="1" width="228" id="table2">
-	<tbody><tr>
-		<td width="27"><b>Line</b></td>
-		<td width="86"><b>Search for</b></td>
-		<td width="93"><b>Replace with</b></td>
-	</tr>
-	<tr>
-		<td width="27">1</td>
-		<td width="86">cat</td>
-		<td width="93">dog</td>
-	</tr>
-	<tr>
-		<td width="27">2</td>
-		<td width="86">dog</td>
-		<td width="93">rat</td>
-	</tr>
-	<tr>
-		<td width="27">3</td>
-		<td width="86">rat</td>
-		<td width="93">foo</td>
-	</tr>
-</tbody></table>
-<p>Imagine the sentence 'A cat bit the dog'. This will be changed to 'A foo bit 
-the foo' because the replacement on one line is found by the search on the next 
-line.</p>
-<p>When this option is checked, the replacement becomes 'A dog bit the rat'.</p>
-<h2>Password for open</h2>
-<p>If a document requires a password for open, ExcelPipe will open it using this 
-password. The password is ignored if it is not required to open the document. If 
-the password is wrong the document is skipped.</p>
-<p>This can be handy if you have multiple password-protected documents sharing 
-the same protection password.</p>
-<h2>Password to unprotect sheet/workbook</h2>
-<p>If a sheet or workbook requires a password to modify it, ExcelPipe will provide this 
-password. The password is ignored if not required.</p>
-<p>This password is also used if you specify a Code Module search and a 
-VBProject is found to be protected.</p>
-<p>ExcelPipe restores the original protection when it saves the file.</p>
-		<h2>ISO-9001 version control</h2>
-<p>If your company is certified to the international ISO-9001 standard, it's 
-essential that you also update each document's version number when any changes 
-are made.</p>
-<p>With ExcelPipe, you can automatically update the version number by 1.0 or 0.1 
-or any other amount automatically.</>
-
-		<h3>'Revision' document property name</h3>
-<p>This is the name of the custom property that holds the version number in the 
-document, usually 'DocRevision' or similar. For more information,
-<a target="_blank" href="http://www.datamystic.com/wordpipe/document_versions.html">
-please click here.</a> This field is NOT case-sensitive.</p>
-
-		<h3>Increment</h3>
-<p>The amount to increment the revision by, usually 1.0 or 0.1. This value must 
-be a valid floating-point number.</p></div>
             ]]>
         </content>
     </entry>
